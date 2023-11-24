@@ -1,0 +1,1931 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <pre>
+        2. Ushbu sonni 10lik sanoq sistemasidan 2lik sanoq
+sistemasiga o’tkazing.
+3110->X2
+111112:
+2 lik sanoq sistemasida ushbu qiymatni javobi nechiga
+teng?
+1+1+1+1+1=?
+101
+2 lik sanoq sistemasida ushbu qiymatni javobi nechiga
+teng?
+1+1+1+1=?
+100
+2 lik sanoq sistemasida ushbu qiymatni javobi nechiga
+teng?
+10-1=?
+1
+Ma’lumotlar toifasi necha turga bo’linadi va ular qaysilar? 2 turga Bazaviy va Keltirilgan.
+Bitta operandga qo’llaniladigan amallar nima dep
+nomlanadi? unar
+Additiv amal qanday belgilanadi? +
+Multiplikativ amal qanday belgilanadi? *
+Modul olish amali qanday belgilanadi? %
+Ushbu jumlani to’ldiring.
+Modul amali … sonni … songa bo’lishdan hosil bo’ladigan
+qoldiqqa tengdir.
+butun butun
+Ushbu jumlani to’ldiring.
+Agar modul amali … operandlarga qo’llanilsa, natija ham
+…bo’ladi, aks holda natija ishorasi kompilyatorga
+bog’liqdir.
+musbat musbat
+Ushbu jumlani to’ldiring.
+Agar operandlar biri long tipiga tegishli bo’lsa ikkinchi
+operand ham … tipiga keltiriladi va natija ham long tipiga
+tegishli bo’ladi.
+long
+Ushbu jumlani to’ldiring.
+Agar operandlar biri float tipiga tegishli bo’lsa ikkinchi
+operand ham … tipiga keltiriladi va natija ham float tipiga
+tegishli bo’ladi.
+float
+Ushbu jumlani to’ldiring.
+Agar operandlar biri double tipiga tegishli bo’lsa ikkinchi
+operand ham … tipiga keltiriladi va natija ham double tipiga
+tegishli bo’ladi.
+double
+Ushbu jumlani to’ldiring.
+Agar operandlar biri long double tipiga tegishli bo’lsa
+ikkinchi operand ham … tipiga keltiriladi va natija ham long
+double tipiga tegishli bo’ladi.
+long double
+Ushbu jumlani to’ldiring.
+… amali ++i ko’rinishda ishlatiladi. Bunda oldin o’zgaruvchi
+qiymatini oshirib so’ngra foydalaniladi. prefix
+Ushbu jumlani to’ldiring.
+… amali i++ ko’rinishda bo’ladi. Bunda ishlatishdan oldin
+o’zgaruvchi qiymatidan foydalanib, so’ngra oshiriladi. postfiks
+Quyidagi berilganlardan short int toifasiga kiruvchi
+unsigned qabul qiluvchi qiymatini toping.
+0... 65535
+Bir toifa bilan ikkinchi toifani aynan qanday hususiyatlari
+orqali farqlash mumkin?
+qiymatlar qabul qilish oralig’i
+va xotiradan egallagan joyining
+katta yoki kichikligi bilan.
+long int toiasini hotiradan egallagan joyi qancha 4 bayt
+short int toiasini hotiradan egallagan joyi qancha? 2 bayt
+Quyidagi berilganlardan int toifasiga kiruvchi unsigned
+qabul qiluvchi qiymatini toping.
+0 ... 4294967295,
+Ushbu jumlani to’ldiring.
+C++ tilida … deb bir necha belgilar ketma ketligi
+tushuniladi. so'z
+Hisoblash jarayonida qiymatini o’zgartirmaydigan
+kattaliklar nima dep nomlanadi?
+const
+Izohlar nima uchun ishlatiladi? barcha javoblar to’g’ri ,
+Operatorlarni biri ikkinchisidan qanday belgi orqali
+ajratiladi nuqtali vergul
+Hech qanday qiymat qaytarmaydigan funksiya nima dep
+nomlanadi? void
+Agar funksiya qaytaradigan qiymat toifasi yozilmagan
+bo’lsa qanday tipda ma’lumot qaytadi? int
+Qaysi belgi orasida matn yozilsa hech qanday
+o’zgartirishlarsiz ekranga chiqadi? qoshtirnoq
+Qo’shtirnoq orasida yozilgan ma’lumotlar nima dep
+nomlanadi? satr
+Matematik funksiyalardan programmada foydalanish
+uchun qaysi kutbhonani
+programmaga qo’shish kerak? math.h
+bool toifasi qanday qiymatlar qabul qiladi? true yoki false
+bool toifasi kompter hotirasida qancha joy egallaydi? 1 bayt
+char toifasi kompter hotirasida qancha joy egallaydi? 1 bayt
+math.h matematik kutbxonasida x sonini natural lagarifimi
+qanday belgilanadi? log(x),
+Math.h kutbhonasida barcha trigonometrik funksiyalar
+qanday o’lchovida beriladi? radian
+C++ da bir toifadan boshqa bir toifaga o’tishning necha hil
+turi mavjud? 2xil oshkor va oshkormas
+Quyidagilardan qaysi birida bir turdan boshqa turga
+o’tishning ishkor variant qo’llanilmoqda? int a; a=(float)3.4:
+Mantiqiy inkor “!” operatori qanday vazifani bajaradi.
+rost qiymatni yolg’onga
+aytlantiradi yoki aksincha,
+Mantiqiy ko’paytirish amali qanday holatlarda yolg’on
+qiymat qaytaradi? barcha javoblar to’g’ri
+Ushbu ifodada “c” qanday qiymat qaytaradi?
+a=true; b=false;
+c=!a;
+c=a&&b;
+c=a||b;
+true
+Ushbu ifodada “c” qanday qiymat qaytaradi?
+a=true; b=true;
+a=!a;
+c=a&&b
+true
+A=true, B=false, C=true, D=false bo’lsa, quyidagi mantiqiy
+ifoda natijasini aniqlang.
+!((A&&B)||(C&&D))||(A||B) true
+A=true, B=false, C=true, D=false bo’lsa, quyidagi mantiqiy
+ifoda natijasini aniqlang.
+!((!A&&B)||(C&&D))||(A||B) true
+A=true, B=false, C=true, D=false bo’lsa, quyidagi mantiqiy
+ifoda natijasini aniqlang.
+((!A&&B)||(C&&D))||(A&&B) false
+A=false, B=false, C=true, D=false bo’lsa, quyidagi mantiqiy
+ifoda natijasini aniqlang.
+!((!A&&B)||(C&&D))||(A||B) true
+Tanlash operatori nima dep nomlanadi? switch
+Tanlash operatorini birorta ham qiymatiga to’gri kelmagan
+holda qaysi operator qo’yiladi? default
+Shart operatori nima dep nomalanadi? if
+continue funksiyasini qaysi operatorlarga qo’llash
+mumkin? Har qanday sikl operatoriga,
+Eng soda doimiy takrorlanuvchi sikl operatori qanday
+yoziladi? for( ; ; ),
+Qaysi sikl operatorida avval shart bajarilib keyin
+tekshiriladi? do while
+Qaysi sikl operatoridan shart yolg’on bo’lsa ham hech
+bo’lmaganda 1 marta foydalaniladi? do while
+Ko’rsatkichlar nima uchun ishlatiladi?
+o’zining qiymati sifatida xotira
+adresini saqlovchi,
+Funksiya dep nimaga aytiladi?
+Dasturning istalgan qismidan
+murojat qilib,
+birnecha bor ishlatish mumkin
+bo’lgan operatorlar guruhi,
+Asosiy programmadan hech qanday parameter qabul qilib
+olmaydigan funksiyalar nima dep aytiladi? parametrsiz funksiya.
+Global o’zgaruvchilar dep nimaga aytiladi?
+ham asosiy programmada, ham
+funksiyada
+ishlatish mumkin bo’lgan
+o’zgaruvchi.
+Lokal o’zgaruvchilar dep nimaga aytiladi?
+faqat funksiyada ishlatilishi
+mumkin bo’lgan o’zgaruvchilar.
+Qiymatlar parametri dep nimaga aytiladi?
+asosiy dasturdan funksiyaga
+uzatiladigan o’zgaruvchilar
+qiymatini qabul qilib oluvchi
+parametrlar
+Qaysi toifa faqat butun sonlarni o’z ichiga oladi? int
+Toifalarni qanday kalit so’zlari bilan modifikatsiyalash
+mumkin
+signed (ishorali),
+unsigned (ishorasiz).
+Ishorasiz toifalar nima uchun ishlatiladi?
+barcha bitlar qiymatlarni
+saqlash uchun
+Ishorasiz sonlar uchun qiymatlar qabul qilish oralig’I
+to’g’ri ko’rsatilgan qatorni belgilang. (0...2n-1),
+Ishorali sonlar uchun qiymatlar qabul qilish oralig’i to’g’ri
+ko’rsatilgan qatorni belgilang. (-2n-1… 2n-1-1) .
+. == != < <= > >= operatorlar bilan binar amallarni
+bajarish qaysi toifaga kiradi?
+bool
+C++ da and mantiqiy amalining yana bir yozilish shakli
+qanday? &&
+C++ da or mantiqiy amalining yana bir yozilish shakli
+qanday? ||
+C++ da not mantiqiy amalining yana bir yozilish shakli
+qanday? !
+C++ da inkor-yoki mantiqiy amalining yana bir yozilish
+shakli qanday? xor
+C++tilida belgili toifalarning qiymatlari qanday belgi
+orqali belgilanadi? qo’shtirnoq ichida beriladi.
+Bir yoki bir necha belgilar birlashmasi nima dep ataladi? satr
+Ko’rsatkichlar hotirada qancha joy egallaydi? 4 bayt
+Bir toifaga mansub elementlar to’plami nima dep
+nomlanadi? massiv
+Massivni necha xil ko’rinishi mavjud? 2 xil
+Ikki o’lchovli massiv nima dep nomlanadi? matritsa
+Ikki o’lchovli massivda indekslar soni nechta bo’ladi? 2 ta
+Matritsa elementlari indekisi doimo qaysi raqamdan
+boshlanadi? 0
+Jumlani to’ldiring.
+Agar massiv toifasi char bo’lsa, u holda massiv …
+hisoblanadi.
+satr
+C++ da satr uzunligini aniqlash uchun qaysi buyrug’dan
+foydalanamiz? strlen(),
+Qaysi klassi o’zgaruvchan
+uzunlikdagi massiv yaratishga yordam beradi? vector
+Massivni e’lon qilish to’g’ri ko’rsatilgan qatorni toping? int a[50] :
+Massivni initsalizatsiyalash to’g’ri ko’rsatilgan javobni
+toping? int a[3]={45,12,1}.
+Noto’g’ri kiritilgan ikki o’lchovli massivni aniqlang? int a[2][3]={1,2,3,4,5,6,4}.
+Quyidagi massivda j indeksi nimani bildiradi? int a[i][j]; ustunlar sonini.
+Quyidagi massivda nechta element qatnashgan
+int k[3][4]; 12 ta
+Quyidagi massivni oxirgi elementini toping
+Int a[7]={1,2,3,4,5,6,7}; a[6]:
+Ikki satr va uch ustundan iborat massivni elon qiling int a[2][3]:
+Dasturning natijasi qanday boladi?
+#include <iostream>
+using namespace std;
+int main()
+{
+int a,b;
+float c;
+a=3;
+b=2;
+c=a/b;
+switch (c)
+{
+case 1 : cout << "C++"; break;
+case 1.5: cout << "Dastur"; break;
+case 2 : cout << "Tugadi"; break;
+case 2.5: cout << "Salom"; break;
+dastur xato
+Dastur natijasi qanday boladi?
+#include <iostream>
+using namespace std;
+int main()
+{
+int a,b,c;
+a=2;
+b=0;
+c=0;
+bool e= a>=b && c<=b;
+cout << a+e << endl;
+return 0;
+}
+3
+Fayllar bilan ishlash oqimlariga qaysilar kiradi? ifstream, ofstream, fstream.
+|-bu belgi qanday mantiqiy amal? mantiqiy yoki(qo’shish).
+Massiv qanday elon qilinadi? int a [n]; flout a[n];double a[n].
+Belgili tipni qabul qiluvchi o’zgaruvchilarni e’lon
+qilish uchun qaysi xizmatchi so’zidan foydalanish mumkin? char
+A=1 B=1 A&B ni qiymatini toping. 1
+Faqat bir qatorni izohga aylantirish uchun qo’llaniladigan
+belgilar. //
+Ekranga qanday natija chiqadi? (a=16)
+int main()
+{int a;
+cin>>a;
+cout<<sizeof(a);
+return 0;
+}
+4
+Parametrli sikl operatorini ko'rsating. for()
+Sharti keyin berilgan sikl operatorini ko'rsating. do{}while().
+Sikl operatorining qaysi turida sikl tanasi kamida bir
+marotaba majburiy tarzda bajariladi? do{}while().
+Ma’lumotlar tarkibi to’liq yoritilgan?
+ma'lumotlar bilan ishlashni, shu
+jumladan
+ularni saqlash, qo'shish va
+o'chirish, o'zgartirish, qidirish va
+boshqalarni tashkil etuvchi ijrochi,
+Daraxt bu …. .Jumlani davom ettiting:
+tugun deb ataladigan bir yoki bir
+nechta elementlardan
+tashkil topgan cheksiz to'plamdir
+Char tipidagi o’zgaruvchiga necha bayt kerak bo’ladi? 1
+char qiymatini butun songa o'tkazish o'rniga nimani talqin
+qilamiz?
+ASCII belgisi sifatida talqin
+qilinadi.
+ASCII (inglizcha "ma'lumot almashish uchun Amerika
+standart kodi" dan) – bu …. .Jumlani davom ettiring.
+inglizcha belgilar (+ bir nechta
+boshqalar) 0 dan 127 gacha bo'lgan
+raqamlar ko'rinishida
+ko'rsatiladigan ma'lumot
+almashishning Amerika standart
+kodi.
+ASCII bo’yicha “a” ni kodi to’g’ri ko’rsatilgan javobni
+tanlang. 97
+Ko’satkichlarni oldilan qaysi belgi qo’yilishi shart? *
+O'zining qiymati sifatida xotira manziliini ko'rsatuvchi
+(saqlovchi) o'zgaruvchilarga nimalar deyiladi? Ko’rsatkich o’zgaruvchilari
+sizeof(n) bu funksiyani vazifasi nima? n xotiradan qancha joy
+egallaganligini ko’rsatadi?
+Adrеsni оlish amali qaysi? &
+.for(int i=1;i<=10;i++)
+{
+cout<<i<<” ”;
+}
+Dastur natijasi qanday?
+1 dan 10 gacha sonlar chiqadi.
+Massivni e’lon qilish to’g’ri ko’rsatilgan qatorni toping? int a[50]
+. Quyidagi ifodadan qanday qiymat chiqishini aniqlang?
+int a[]={1,2,3,4,5};
+cout<<a[3]; 4
+Massiv bu …
+Bir toifali chekli qiymatlarning
+tartiblangan to’plami.
+.Bir xil hisoblash jarayonini bir necha bor takrorlanishi
+nima deyiladi? sikl
+Massiv elementlari indeksi nechchidan boshlanadi? 0
+Parametrli sikl operatorini ko'rsating. for(){},
+int a=15;
+while(a>0)
+{--a;}
+Dastur qismida sikl tanasi necha marta bajariladi?
+15
+Sharti oldin berilgan sikl operatori tuzilishini ko'rsating. while(shart) {sikl tanasi;}.
+Sharti keyin berilgan sikl operatori tuzilishini ko'rsating. do{sikl tanasi} while(shart);
+int i=1;
+while(i>-1)
+{cout<< i << endl; i++;}
+Dastur qismida sikl tanasi necha marta bajariladi?
+cheksiz:
+bajarilmaydi;
+122. int a=0;
+while(a-1<5)
+{a++;}
+Dastur qismida sikl tanasi necha marta bajariladi?
+6
+for (int a=0; a<50; a+=10) {cout<<a<<","}
+Dastur qismida qanday natija chiqariladi? 0,10,20,30,40
+int s=-1;
+for (int a=0; a<10; a++) {s+=a;}
+cout<< s <<endl;
+Dastur qismida qanday natija chiqariladi?
+44
+Length() funksiyasining vazifasini aniqlang. String tipidagi satr uzunligini
+aniqlaydi.
+Massivni e’lon qilishda massiv indeksi qanday belgi ostida
+bo’ladi?
+[…]
+String a("yaxshi");
+String b("kun");
+String c=a+b;
+Natija ?
+"yaxshikun"
+Ixtiyoriy funksiyadan chiqish uchun….xizmatchi so’zi
+ishlatiladi.
+return,
+belgili tipdagi malumotlarni qabul qilib, butun tipdagi
+malumot qaytaruvchi funksiyani toping?
+int son(char a )
+string a=”yakuniy nazorat”; int s=a.length(); s=? S=15,
+Xotiradan sakkiz bayt joy egallaydigan butun qiymatli
+o’zgaruvchini ko’rsating?
+double a
+Kvadrat massiv deb qanday massivlarga aytiladi? ustunlar va satrlar soni teng
+bo’lgan massivga.
+Noto’g’ri kiritilgan ikki o’lchovli massivni aniqlang? int a[2][3]={1,2,3,4,5,6,4}:
+Quyidagi massivda nechta element qatnashgan int k[3][4]; 12
+C++ tilida simvolli massivlar qanday e’lon qilinadi? char a[10].
+Ro’hat qanday turlarga bo’linadi? 2 ta bog’langan va bog’lanmagan;
+Stek , dek va navbatlar qaysi ro’yhat turiga misol bo’ladi? bog’lanmagan.;
+FIFO navbat ko’rinishining ma’nosi nima? Birinchi kelgan birinchi ketadi,
+Ma’lumotlar bazalarining tuzilmasi bo’yicha adabiyotlarda
+yo’naltirilgan
+graf ko’rinishiga ega ma’lumotlar modeli nima deb ataladi? tarmoq.
+…… ba’zi cheklovlarga ega grafdan iborat, ya’ni bu
+tsikllarga ega
+bo’lmagan yo’naltirilgan grafdir.Nuqtalar o’rniga keraklisini
+qo’ying;
+Daraxt:
+Jadval bu …. .Gapni davom ettiring:
+har bir elementi kalitning ma’lum
+qiymati bilan tavsiflanadigan
+va elementlaridan erkin
+foydalanish kalit bo’yicha amalga
+oshiriladigan
+ma’lumotlarning chiziqli
+tuzilmasidir.
+…… - bu qiymati tegishli elementning massivdagi joyini
+aniqlaydigan butun sondir. Nuqtalar o’rniga kerakli so’zni
+qo’ying. Indeks.
+Bir o’lchamli massiv nima deb ataladi? vector:
+Son, liter, matn, belgi va yanada murakkab tuzilmaga ega
+bo’lgan ketma-ketliklar qanday ko’rinishda bo’ladi?
+ro’yxatlar va daraxtlar
+ko’rinishidagi
+shakllardan iborat bo’ladi,
+Strukturalarni e’lon qilish uchun qaysi kalit so’z ishlatiladi? struct,
+Dasturchi tomonidan ixtiyoriy kiritilgan mavjud tiplar
+asosida
+yaratilgan strukturalangan toifa hisoblanadi?
+Class.
+Agar kalitlar ma‟lumotlar jadvalidan ajratib olinib alohida
+fayl
+sifatida saqlansa, u holda bunday kalitlar … kalitlar
+deyiladi. . Nuqtalar o’rniga kerakli so’zni qo’ying.
+tashqi
+Agar kalitlar ma’lumotlar jadvalidan ajratib olinib
+yozuvning bir maydoni sifatida jadvalda saqlansa … kalit
+deyiladi. Nuqtalar o’rniga kerakli so’zni qo’ying.
+ichki
+Kalitni berilgan argument bilan mosligini aniqlovchi
+algoritmga berilgan
+argument bo’yicha … deb ataladi. Nuqtalar o’rniga kerakli
+so’zni qo’ying.
+qidiruv
+Ma’lumotlar tuzilmasi va algoritmi fanida saralashning
+necha turi mavjud?
+2
+Ichki saralash nima? operativ hotiradagi saralash.
+Tashqi saralash nima? tashqi hotiradagi saralash,
+To’g’ridan to’g’ri qo’shish usuli? insertion.;
+To’g’ridan to’g’ri tanlash usuli? insertion.;
+To’g’ridan to’g’ri almashtirish usuli? exchange
+.Elementlar o’zidan keyingi elment bilan bog’langan bo’lsa
+bunday ro’yhatlarga qanday ro’yhatlar deyiladi? bir bog'lamli
+Elementlar o’zidan oldingi va keyingi elment bilan
+bog’langan bo’lsa bunday ro’yhatlarga qanday ro’yhatlar
+deyiladi?
+ikki bog'lamli
+Ro’yhatning har bir elementi shu elementni
+identifikatsiyalash uchun nimaga ega bo’lishi kerak?
+kalitga
+Barg tuguning balandligi nechaga teng? 0
+Bo’sh qism daraxtining balandligi nechga teng? -1
+Agar grafda boshi va ohiri bitta tugunda tutashadigan qirra
+mavjud bo’lsa, unga qanday qirra deyiladi? irmoqli
+……- bu boshi va ohiri tutashuvchi tugundan iborat yo’l
+hisoblanadi. Nuqlar o’rniga kerakli so’zni tanlang: Halqa(cycle),
+…… bu tugundan chiquvchi yoylar soni hisoblanadi. Nuqlar
+o’rniga kerakli so’zni tanlang:
+Tugun darajasi (vertex degree)
+Ihtiyoriy grafda toq tugunlar soni qanday bo’ladi? juft
+Tugun darajalari toq qiymatli bo’lsa qanday tugunlar
+deyiladi?
+toq tugunlar.
+Ixtiyoriy ma’lumot yoki tuzilma elementi bir-biridan
+asosiysi nimasi bilan farq qiladi?
+kaliti
+Kalit necha xil bo’ladi? 2
+Kalitni xillari tog’ri ko’rsatilgan javobni tanlang? birlamchi va ikkilamchi
+Birlamchi kalit ….? Takrorlanmaydi,noyob,
+Ikkilamchi kalit…..? takrorlanadigan kalit,
+“bo’lib ol va egalik qil” tamoyilining yaqqol misol bo’lgan
+saralash algoritmi?
+quicksort:
+Agar daraxtning maksimal chiqish darajasi qanchaga teng
+bo’lsa , u holda bunday daraxt binary daraxt deyiladi 2
+Mantiqiy operatsiyalar toifasidagi o’zgaruvchining qabul
+qiladigan qiymat oralig’i qanday? true, false:
+…. - ingliz tilidan olingan bo’lib 2 ta chetga ega navbat
+degan ma’noni bildiradi. Nuqlar o’rniga kerakli so’zni
+tanlang:
+Dek.
+Daraxtda shunday bitta element borki, unga boshqa
+elementlardan murojaat
+yo’q. Bu element nima deyiladi;
+daraxt ildizi
+int strlen (satr); ning vazifasini toping.
+Char tipidagi satr uzunligini
+qaytaradi
+S.substr(n1,n2) ning vazifasini toping.
+S.substr(n1,n2) ning vazifasini
+toping.
+String tipi uchun satr uzunligini aniqlovchi funksiyani
+toping.
+Length(),
+String s=”dasturlash”; String a=s.substr(0,4); a=? a=”dast”
+int a=s.find (“a”); funksiyani ma’nosi? S satrdan birinchi uchragan “a”ni
+nomerini qaytaradi.
+char[50]=”qator”; Satr oxiri qanday belgi bilan
+yakunlanadi.
+“\0”
+cin.getline ( <satr>, <satr uzunligi>); satr uzunligi uchun
+qaysi funksiyadan foydalanish mumkin.
+sizeof(<satr>),
+Fayl nima ?
+Malumotlarni saqlash uchun tashqi
+xotiraning nomlangan qismi
+Qanday fayllar binar fayllar deyiladi ?
+Har xil obyektlarni ifodalovchi
+baytlar ketma –ketligi.
+funksiyalar qiymat qaytarishiga qarab necha turli
+bo’ladi?
+2
+funksiya tanasida olingan o’zgaruvchilar qachogacha
+amal qiladi?
+berilgan nuqtadan blokkacha.
+dasturda qaysi funksiya bo’lishi shart? main.
+int katta(float a) bu funksiya qanday qiymat qabul
+qiladi va qanday qiymat qaytaradi?
+haqiqiy,butun
+belgili tipdagi malumotlarni qabul qilib, butun tipdagi
+malumot qaytaruvchi funksiyani toping?
+int son(char a )
+dasturining asosiy qismida va funksiyada faol
+qo’llaniluvchi o’zgaruvchilar nima deyiladi? global o’zgaruvchlar.
+funksiya tanasida faol o’zgaruvchilar nima deb ataladi? local o’zgaruvchlar:
+Butun qiymat qabul qiluvchi tiplarni ko`rsating short, int, long long.
+Dasturda global o’zgaruvchilar xotiraning qaysi qismida
+saqlanadi?
+Global
+Dasturda local o’zgaruvchilar xotiraning qaysi qismida
+saqlanadi?
+Stekli:
+Dasturda ichki xizmatchi ma’lumotlari xotiraning qaysi
+qismida saqlanadi?
+Registrli
+Massiv elementiga nima orqali murojaat qilinadi? indeksi orqali,
+Agar massiv elementiga qaraganda kamroq element
+berilgan bo’lsa natija qanday chiqadi?
+berilgan elementlar va qolgan
+elementlarni 0 lar bilan.
+Massivlarda Indeks sifatida qanday ifodalardan foydalanish
+mumkin?`
+char
+Massivlarning qanday turlari mavjud? dinamik va statik
+Ro`yxat elementlari soni n ga teng . Ro`yxat nimasi
+deyiladi.
+uzunligi
+Ro`yxat elementlari soni n ga teng . Ro`yxat nimasi
+deyiladi.
+bo'sh
+Chiziqsiz ma’lumotlar tuzilmasi deb nimaga aytiladi?
+Agar tuzilmani tashkil etuvchi
+elementlar qat’iy tartiblanmagan
+bo’lsa.
+Chiziqsiz ma’lumotlar tuzilmasida elementlar orasidagi
+munosabatlar qanday bo’lishi mumkin? Ixtiyoriy
+Chiziqli tuzilmani belgisini nechta faktga ajratish
+mumkin? 3
+Chiziqsiz ma’lumotlar tuzilmasi klassifikatsiyasi qaysilar? Ro’yxatlar,graflar,daraxtlar
+Ro’yxatlar turlari qaysilar? Chiqsiz 2 bog’lamli,ko’p bog’lamli
+Daraxt turlari qaysilar? Binar daraxtlar,ko’p o’lchamli
+daraxtlar
+Graf turlari qaysilar? Orgraf,gipergraf,graf
+Ixtiyoriy ko’rinishdagi chiziqsiz ma’lumotlar tuzilmasini
+necha xil usulda tasvirlash mumkin? 2
+Ixtiyoriy ko’rinishdagi chiziqsiz ma’lumotlar tuzilmasini
+usullari qaysilar?
+Qo’shma matritsa,ko’rsatkichli
+bog’langan ro’yxat
+Ko’p bog’lamli ro’yxatlarda bo’shagan elementni
+utilizatsiya qilish necha usuldan iborat? 2
+Ko’p bog’lamli ro’yxatlarda bo’shagan elementni
+utilizatsiya qilish usullari qaysilar?
+hisoblagichlar,keraksiz
+elementlarni yig’ish usullari
+Ko’p bo’g’lamli tuzilmalarni amalga oshirish natijasida
+nima hosil bo’ladi? To’r
+Rekursiya nima?
+tadqiq qilinayotgan jarayonni
+aniqlash mazkur jarayonga
+murojaat qilish orqali amalga
+oshiriladi
+Rekursiv algoritm nima?
+bu algoritmni aniqlashda o’ziga
+bevosita va bilvosita murojaat
+qilishdir
+Rekursiv triada nechta qismdan iborat? 3
+Rekursiv triada asoslari qaysilar? parametrizatsiya qilish,rekursiya
+bazasi,dekompozitsiya
+Daraxt nima? Chiziqsiz bog’langan ma’lumotlar
+tuzilmasidir
+Daraxt baalandligi nima? Daraxt bosqichlari soni
+Tugundan chiqish darajasi nima? Daraxt tugunlaridan chiqayotgan
+shoxlar soni
+Daraxt klassifikatsiyasi necha turdan iborat? 4
+To’liq binar daraxt nima? chiqish darajasi 0 yoki 2 bo’lsa
+m-tartibli daraxt nima? Agar maksimal chiqish darajasi m
+bo`lsa
+To`liq m-tartibli daraxt nima? Agar chiqish darajasi 0 yoki m
+bo’lsa
+Binar daraxt deb nimaga aytiladi? Agar maksimal chiqish darajasi 2
+bo`lsa
+EXM xotirasida daraxtni ifodalashning eng qulay usuli Uni bog`langan ro`yxatlar
+ko`rinishida
+Dinamik malumotlar tuzilmasi nechta xususiyatga ega? 2 turga
+Dastur bajarilayotganda vujudga keladigan yoki
+o`lchamlari dastur bajarilishi mobaynida aniqlanadigan
+ob`yektlar qanday ob`yektlar deyiladi?
+Dinamik
+Agar ro`yxat elementlari ko`rsatgichlar orqali bog`langan
+bo`lsa, u holda bunday tuzilmaga qanday ro`yxat deb
+ataladi?
+Bog`langan ro`yxat
+Agar ro`yxatning elementlari ko`pi bilan tuzilmaning m ta
+elementi bilan o`zaro bog`langan bo`lsa…… M bog`lamli deyiladi
+Agar bog`langan ro`yxat elementlari mavjud bo`lmasa, u
+holda bunday ro`yxat … deb ataladi. Bo`sh ro`yxat
+Mantiqiy tasvirlash nuqtai nazaridan ro`yxatlar necha
+turga bo`linadi? 2 ga
+Mantiqiy tasvirlash nuqtai nazaridan ro`yxatlar turini
+sanang? Chiziqli va chiziqsiz
+Chiziqli ro`yxatlarga qaysilar kiradi? 1 va 2 bog`lamli
+Chiziqsiz ro`yxatlarga qaysilar kiradi? Ko`p bog`lamli
+Bog`langan ro`yxatlar ustida nacha xil amal bajarish
+mumkin?
+4 xil
+Ro`yxatning istalgan elementini o`chirish mumkinmi? Mumkin
+Bog`langan ro`yxatlar elementlarini chop qilish mumkini? Mumkin
+Agar ro`yxat elementlari faqatgina bitta ko`rsatkichlar
+maydoniga ega bo`lsa, u holda bunday tuzilmaga …
+yo`naltirilgan ro`yxat deb ataladi.
+Bir bog`lamli yoki ir tomanlama
+Royxat elementlariga murojat qanday amalga oshiriladi? Ro`yxat boshidan
+Bir bog`lamli ro`yxat elementi nechta maydonga ega? 2 ta
+Bir bog`lamli ro`yxat elementi maydonlarini sanang. Information va ko`rsatgich maydon
+LST nima? Ro`yxat boshiga ko`rsatgich
+Ro`yxat eng so`ngi elementining o`rsatgich maydoni bo`sh
+bo`lishi bu…?
+NIL
+Elementni ro`yxatdan o`chirishning paskal tilida amalga
+oshirish to`g`ri ko`rsatilgan qatorni ko`rsating.
+P:=Lst; X:=P^.Info; Lst:=P^.Next;
+Dispose(P);
+Ikki bog`lamli ro`yxatning xar bir elementi nechta
+ko`rsatgichga ega?
+2 ta
+Ikki bog`lamli ro`yxat ustida amallarni sanang.
+Ro`yxat elementini yaratish,
+qidirish, o`cherish, ko`rsatilgan
+joyiga elementini ko`yish.
+Ixtiyoriy bir bo`g`inli ro`yxatni stek deb qarash mumkinmi? Mumkin
+Qanday ro`yxat oddiy bir bo`g`imli ro`yxatda eng so`ngi
+element ko`rsatgichiga ro`yxat boshi elementi o`rsatki
+chiqiymatini o`zlashtirish orqali xosil qilinadi.
+Xalqasimon bir bog`lamli
+Bog`langan ro`yxat elementining ko`rsatkichlari maydoni
+soni qanday bo`lishi mumkin?
+Bir nechta va turli xil
+Bog`langan ro`yxatlar eng ko`p qanday tuzilmalardan
+hisoblanadi? Dinamik
+Tugundan chiqayotgan shoxlar soni nimani belgilaydi Tugundan chiqish darajasini
+Daraxt maksimal chiqish darajasi m-bo’lsa, u holda
+bunday daraxt qanday tartibli daraxt deyiladi?
+m-tartibli daraxt
+Daraxt chiqish darajasi 0 yoki m bo’lsa, u holda bunday
+daraxt qanday tartibli daraxt deyiladi?
+To’liq m-tartibli daraxt
+Daraxt maksimal chiqish darajasi 2 bo’lsa, u holda bunday
+daraxt qanday tartibli daraxt deyiladi
+Binar daraxt
+Daraxt chiqish darajasi 0 yoki 2 bo’lsa, u holda bunday
+daraxt qanday tartibli daraxt deyiladi?
+To’liq binar daraxt
+Agar daraxtning maksimal chiqish darajasi 2 bo’lsa,
+bunday daraxt nima deb ataladi?
+Binar daraxt
+Binar daraxtlarda ota o’g’illari bilan qanday bog’lanadi? Garizontal chiziq bilan
+Quyidagilardan qaysi biri rekursiv triadaga kirmaydi? Daraxtni asoslashtirish
+Daraxtning har bir tugunida katta o’g’ilga mos shoxidan
+tashqari barha shohlari kesib tashlanadi. Bunday holatda
+qaysi shox katta o’g’il vazifasida bo’ladi?
+Chetki chap shox
+Bu algoritmni aniqlashda o’ziga bevosita yoki bilvosita
+muroojat qilishdir. Qanday algoritm haqida gap
+ketmoqda?
+Rekursiv algaritm
+Saralash algoritmlari nechta tipga bo’linadi? 2 ta
+Tanlash orqali saralashda har qadamda hali ko’rilmagan
+elementlar orasidan qay biri tanladi
+Eng kichigini
+Tanlash orqali saralash jarayoni necha marotaba davom
+etadi?
+N-1 marta
+Agar ikki qo’shni element noto’g’ri tartibda joylashib
+qolgan bo’lsa, ularning o’rnini almashtiramiz. Umumiy n-1
+marta jarayon bajariladi. Har safar ikkita qo’shni element
+taqqoslanadi.
+Elementlar o’z o’rinlariga pufakga o’xshab siljib boradi.
+Yuqorida qaysi usul algoritmi keltirilgan?
+Bubble sort
+Pufakcha usulida saralashda quyidagilardan qaysi bigiga
+qolganlariga teng emas?
+Qo’shimcha xotira
+Jon fon Neyman tomonidan 1946 – yil qaysi saralash
+algoritmi taklif qilingan.
+Merge sort
+Uni ikkita bo’lakga ajratamiz.
+Bo’laklarni alohida saralaymiz.
+Saralangan massivlarni birlashtiramiz.
+Ushbu algoritm qaysi saralashniki?
+Bo’lib tashlab hukumronlik qil
+metodi
+1964 – yilda Charlz Hoar tomonidan qaysi saralash
+algoritmi taklif qilingan.
+Quick sort
+Quick sort qaysi metodga asoslanadi? Bo’lib tashla va hukumronlik qil
+metodiga
+Massivda bo’luvchi element X tanlanadi.
+Elementlarni shunday joylashtiramizki, dastlab X dan kichik
+yoki teng bo’lgan elementlar joylashsin, keyin undan katta
+bo’lgan elementlar joylashsin.
+Keyin ularni alohida saralaymiz.
+Bu qaysi algoritm g’oyasi
+Tezkor saralash
+Uni omborxona yoki kutubxonaning bir turi sifatida ko'rish
+mumkin.
+cMa’lumotlar strukturasini
+Kalitlarni taqqoslashlar soni
+Dasturni ishlab chiqishga ketgan vaqt
+Dasturni ishlashi uchun ketgan vaqt
+Talab qilinadigan xotira hajmi
+Bu nimaning samaradorlik mezonlari?
+Qidiruv algaritmlarining
+Ushbu algoritmlar ishlab chiqarilayotganda, ko’proq,
+jadvaldagi kalitlarni taqqoslash soniga e’tibor qaratiladi.
+Qaysi algoritmlar haqida gap ketmoqda?
+Qidiruv algaritmlari
+Massiv yoki bog’langan ro’yxatlarda.
+Elementni jadvalga qo’shish talab qilinsa, u holda qidiruvni
+amalaga oshirish qay birida qulayroq kechadi? Ro’yhatlarda
+Qaysi usulda topilgan element jadvalda bitta oldingi
+element bilan o’rin almashtiradi va agar ushbu elementga
+ko’p murojaat qilinsa, bittadan oldinga surulib borib
+natijada jadval boshida bo’ladi?
+Transpazitsiya usuli
+Qaysi holatda indeksli qidiruv samaradorligini
+C=√n+1=O(√n) kabi mukammallashtirish mumkin?
+Bo’lishi mumkin barcha holatlar
+teng bo’lsa
+U berilgan to’plam elementlarini biror bir tartibda
+joylashtirish jarayonidir. U nima
+Saralash
+Saralashning maqsadi - ?
+tartiblangan to’plamda kerakli
+elementni tartiblashdan iborat
+bo’ladi
+Qaysi saralash usulida hali ko’rilmagan massiv elementlar
+orasidan 1-elementini eng kichik elementi deb tanlanadi
+shundan so’ng massivning barcha elementlari bilan
+solishtiriladi va natijasida eng kichik elementni massivning
+boshiga joylashtiriladi.
+Tanlash orqali saralash usuli
+Saralashning necha turi mavjud 2 ta
+Operativ xotiradagi saralash bu qaysi saralash turiga
+kiradi?
+Ichki saralash
+Saralashni nechta usuli mavjud? 2 ta
+Quyidagilardan qaysilari saralash usullari? Qat’iy va yaxshilangan
+Quyidagi usullardan qay birida almashtirishlar soni keskin
+farqlanadi?
+Yaxshilangan usul
+Faraz qilaylik, a1, a2, … , anelementlar ketma-ketligi
+berilgan bo’lsin.
+Berilgan elementlar ichidan eng kichik kalitga ega element
+tanlanadi.
+Ushbu element boshlangich ketma-ketlikdagi birinchi
+element a1 bilan o’rin almashadi
+Undan keyin ushbu jarayon qolgan n-1 ta element, n-2 ta
+element va hokazo, toki bitta eng katta element qolgunga
+davom ettiriladi.
+Savol bu qaysi tamoyil asosi hisoblanadi?
+To’g’ridan to’g’ri tanlash usuli
+Qisqarib boruvchi qadamlar orqali saralash uslini fanda
+qanday ataladi
+Shell usuli
+Shel usuli qachon taklif qilingan? 1959 yilda
+Qaysi tur mantiqiy mulohazalarning to’g’riligini aniqlash
+uchun, turli xil dasturlash tillarida turlicha ifodalanadigan
+ifodalarni 2 ta ko’rinishda ifodalaydi?
+Mantiqiy tur
+Mantiqiy tur uchun qiyinroq hisoblanuvchi operatsiyalar
+qaysilar?
+Chiqarib tashlash, ekvivalensiya,
+implikatsiya
+Mantiqiy qiymatlar xotirada qancha joy egallaydi? 1 bit
+Inkor amali qaysi qatorda to’g’ri berilgan? Not a
+Dizyunksiya amali qaysi qatorda to’g’ri berilgan? A or b
+Konyunksiya amali qaysi qatorda to’g’ri berilgan? A and b
+Dizyunksiyaning inkori dasturlashda qanday yoziladi? Xor
+#include <iostream>
+Using namespace std; int main(){
+Bool b=true;Bool s=false;
+Bool d1 =not b || s;
+Bool d2=b && s; bool d3=b xor s;
+Cout<<d1<<" "<<d2<<" "<<d3;System ("pause ");}
+Dastur natijasini toping.
+0 0 1
+Bir tipli nomerlangan ma’lumotlar janlanmasi nima deb
+ataladi? Massiv
+U indeksli o’zgaruvchi tushunchasiga mos keladi. U
+dasturlashda qanday ataladi Massiv
+C++ dasturlash tili standarti bo’yicha massiv indekslari
+nechtagacha bo’lishi mumkin
+31 ta
+Qanday tip matematikada matritsa yoki jadval
+tushunchasiga mos keladi Ikki o’lchovli massiv
+Quyidagi initsalizatsiyalardan qaysi biri dasturlashda xato
+natija beradi?
+Float[][]={(1.3,1.1,1.4),(-1,4.4),(1.3,
+2.4)}
+Turli tipdagi ma’lumotlarning biror nom ostida
+birlashtirilgan, dasturchi tomonidan beriladigan yangi tip
+nima deb ataladi?
+Structura
+Uni e’lon qilish uchun struct xizmatchi so’zi ishlatiladi. U
+nima?
+Yozuv
+“oxirgi kelgan - birinchi ketati” bu nimaning ta’rifi? Stek
+Lifo bu nimaning ta’rifi? Stek
+Unda elementlarni kiritish va tomondan ya’ni uchidan
+amalga oshiriladi. U nima
+Stek
+C++ tilida steklar qanday amalga oshiriladi? A va b javoblar to’g’ri
+Nima 2 ta chetga ega navbat ma’nosini beradi? Dek
+Double ended queue
+Bu nimaning ta’rifi? Dek
+Navbat bu - ... Fifo
+Elementlarning oxiridan qo’shilib, boshidan chiqarib
+tashlanishi nima deb ataladi
+Navbat
+C++ dasturlash muhitida ma'lumotlarni massivdan
+tashqari sal boshqacharoq usulda saqlashning yana bir turi
+mavjud, bu nima?
+Vektorlar
+Ayrim paytlarda massivga nechta element kiritilishi
+ma'lum bo‘lmaydi va o‘shanda dinamik dasturlashdan
+foydalanish kerak bo‘ladi, ya'ni massivga qo‘shiladigan
+elementga xotira ajratishga to‘g‘ri keladi, bunday paytda
+qaysi kitobxonadan foydalanish optimalroq hisoblanadi?
+Vector
+Qaysi class o‘zgaruvchan uzunlikdagi massiv yaratishga
+yordam beradi?
+Vector
+Elementlari soni oldindan ma'lum bo‘lmagan bir xil
+toifadagi elementlar ketma-ketligi dasturlashda nima deb
+ataladi
+Vector
+Dasturlashda vectorni e’lon qilish sintaksisi to’g’ri
+ko’rsatilgan qatorni toping
+Vector<int> q
+Dasturlash tillarida ma’lumotlar necha turga bo’linadi? bazaviy va keltirilgan
+Void kalit so’zi qaysi toifaga tegishli ekanligini ko’rsatadi? Hecsh qaysi
+Dasturning asosiy tanasi nima? int main()
+Dasturda Amallar necha xil bo’ladi? 2 xil (binar va unar)
+Ulardan qaysi biri additiv binar amal? (+) qo’shish
+Multiplikativ binar amallarni ko’rsating. (*), (/) , (%)
+[++] va [--] lar qanday amallar? Unar
+Prefiksni ko’rsating #BEZUG!
+Postfiksni ko’rsating i++
+int main(){
+int a=100,b=10,c=5;
+for(int i=0; i<2; i++)
+{ a/=b-c; }
+cout<<"a="<<a<<endl;
+system("PAUSE");}
+Dastur natijasini toping
+4
+Dasturlash tillarida ma’lumotlar necha turga bo’linadi? bazaviy va keltirilgan
+Void kalit so’zi qaysi toifaga tegishli ekanligini ko’rsatadi? hech qaysi
+Dasturning asosiy tanasi nima? int main()
+Dasturda Amallar necha xil bo’ladi? 2 xil (unar va binar)
+Ulardan qaysi biri additiv binar amal? (+) qo’shish
+Daraxt bog’lanish bosqichlari nechidan boshlanadi? 0 dan
+[++] va [--] lar qanday amallar? Unar
+Prefiksni ko’rsating ++I
+Postfiksni ko’rsating i++
+int main(){
+int a=100,b=10,c=5;
+for(int i=0; i<2; i++)
+{ a/=b-c; }
+cout<<"a="<<a<<endl;
+system("PAUSE");}
+Dastur natijasini toping.
+*4
+uning o’lchami mashina, ya'ni kompyuter
+konfiguratsiyasiga bog’liq ravishda o’zgarib turadi. Gap
+nima haqida ketmoqda.
+Intejer tipi
+Integer Toifa modifikatsiyalarini ayting signed va unsigned
+Signed Int toifasida modifikatsiyalanganda qiymatning eng
+chap bitidagi 0 yoki bir nimani bildiradi. Ishorani
+Int tipi ustida ==, !=, <=, >=, < , > kabi amallar bajarilganda
+natija qaysi tipga kiradi
+Bool
+Xotiradan egallangan hajmni bilish uchun qaydi xizmatchi
+so’zdan foydalaniladi
+sizeof()
+Haqiqiy toifaga nisbatan binar amallar bajarilsa natija
+qanday tipga tegishli bo’ladi?
+Mantiqiy
+Haqiqiy tipga nisbatan unar amallar ishlatilsa natija qanday
+sonlar chiqadi?
+Haqiqiy
+U tip Kompyuter xotirasida asosan qo’shg’aluvchan nuqta
+formatida saqlanadi. U qanday tip
+Haqiqiy tip
+Float tipi xotiradan qancha joy egallaydi? 4 bayt
+Double Float tipi xotiradan qancha joy egallaydi? 8 bayt
+Long double tipi xotiradan qancha joy egallaydi? 8 bayt
+Yo’q , yoki , va amallari qaysi toifa ustida bajariladi Boolen
+Boolen tipi kompyuter xotirasidan qancha hajm egallaydi 1 bayt
+Unsigned char tipi xotiradan qancha joy egallaydi 1bayt
+#include <iostream.h>
+Using manespace std;Int main(){
+Char x=`a`, y=`b`; char min;
+If(x>y) min=y;Else min=x;
+Cout<<min;Return 0;}
+Dastur natijasini toping
+a
+Ma'lumotlar tuzilmasi fanida daraxt so`zi ko`pincha
+qanday nomlanadi?
+Tree
+O`ziga murojaat qiluvchi funksiya? Rekursiv
+...– bu bironta ob‘ektga tegishli turli toifadagi maydonlar
+to‘plamidir.
+Yozuv
+Primitiv toifalar (...) ma‘lumotlarning sodda toifalari
+Ma‘lumotlar toifalari … turga ajratiladi 3
+... – elementlarni ma‘lum bir tartibda joylashtirish amali Saralash
+… - tuzilmadan bironta elementni joylashgan o‘rnini
+aniqlash amali
+Qidirish
+... - tuzilma elementlariga 1 martadan murojaat qilish
+amali.
+Ko‘rikdan o‘tkazish (traversing)
+... – xar bit amal oddiy va soda bo‘lishi kerak Samaradorlilik
+Qiymat qaytarmaydigan funksiya qaysi? void
+if(n<0){cout<<a;} else{cout<<a-1;} a=3,n=0 bo`lsa, ekranga
+qanday qiymat chiqadi?
+2
+if(n<0){cout<<a;} else{cout<<a-1;} a=3,n=-2 bo`lsa,
+ekranga qanday qiymat chiqadi?
+3
+if(n=>0){cout<<a;} else{cout<<a-1;} a=3,n=-2 bo`lsa,
+ekranga qanday qiymat chiqadi?
+dastur xato
+if(n=>0){cout<<a;} else{cout<<a-1;} a=5,n=-2 bo`lsa,
+ekranga qanday qiymat chiqadi?
+dastur xato
+for(int i=5;i<8;i++){...} ushbu sikl necha marta
+takrorlanadi?
+3
+for(int i=5;i<=8;i++){...} ushbu sikl necha marta
+takrorlanadi?
+4
+for(int i=0;i<=8;i++){...} ushbu sikl necha marta
+takrorlanadi?
+9
+Sharti keyin beriladugan sikl operatori? do{...}while(…)
+Sharti oldin beriladugan sikl operatori? while(…){…}
+Parametrli sikl operatori qaysi? for(…){…}
+do{…}while(n>0) n=0 bo`lganda sikl necha marta
+takrorlanadi?
+1
+for(int i=1; i<n;i++){n--;} n=0 bo`lganda sikl necha marta
+takrorlanadi?
+cheksiz
+switch quyidagi tiplarning qaysi biri bilan ishlaydi? int
+int aloqa(){int a=5; return a;} funksiya nomini toping aloqa
+for(int i ; i<=10 ; i++) - bu siklda [i] nima? sikl parametri
+Sharti oldin berilgan takrorlanish operatorini toping While
+Fayllar bilan ishlash oqimlariga qaysilar kiradi ifstream, ofstream, fstream
+Bir xil toifali , chekli qiymatlarning tartiblanganto’plamiga
+nima deb ataladi? Massiv
+Mantiqiy amallarda & belgisini vazifasi nima ko’paytirish
+int main(){int a = 7, b = 11;bool OK = a < 7 ^ b > 10;cout < 1
+Quyidagi ifodadan qanday qiymat chiqishini aniqlang?int
+a[5]={1,2,3,4,5}; cout<<a[3]; 4
+Massivlarning qanday turlari mavjud? dinamik va static massivla
+Parametrli sikl operatoridan tog'ri foydalanilgan javobni
+ko'rsating. for (int i=0; i<=n; i++)
+Sharti keyin berilgan sikl operatori tuzilishini ko'rsating. do{sikl tanasi;} while(shart)
+<indeks> -bu? massiv xadining joylashgan o’rnini
+anglatuvchi taktik qiymat
+Xotiradan sakkiz bayt joy egallaydigan butun qiymatli
+o’zgaruvchini ko’rsating double a;
+Har xil obyektlarni ifodalovchi baytlar ketma ketligi bu ? binar fayl
+Ham asosiy programmadaham funksiyada ishlashi mumkin
+bo’lgan o’zgaruvchilar bu …? global o’zgaruvchilar
+int main()
+{ int a=30, b=40, c=35,d;
+if (a>b) {d=b;}
+else {d=a;}
+if(d>c)d=c;
+cout << d;
+return 0;}
+30
+Short int kompyuter xotirasida necha bayt joy egallaydi? 2 bayt
+Eng ko‘p foydalaniladigan daraxtlar turi qaysi? binar
+Daraxt ko‘ruvini amalga oshirish uchun nechta
+prosedurani bajarish lozim? 3
+Agar elementlar daraxtga kalit qiymatlari o‘sish
+(kamayish) tartibida kelib tushgan bo‘lsa, u holda daraxt
+qaysi tomonga yo‘nalgan ro‘yxat hosil qiladi ?
+bir tomonga
+Bir tomonlama yo‘naltirilgan ro‘yxatda chiqishlar soni
+qanday bo‘ladi
+N/2
+Tugun daraxtda o‘chirilayotganda necha hil variant
+bo‘lishi mumkin?
+3
+Ikkita muvozanatlangan AVL daraxti berilgan bo‘lsin. Ularni
+birlashtirish natijasida yangi muvozanatlangan qanday
+daraxt hosil bo‘lishi kerak?
+binar
+Binar daraxt ustida amal bajarish qiyinligi uning nimasiga
+to‘g‘ri proporsional?
+balandligiga
+Agar daraxtning o‘ng va chap qism daraxtlari bosqichlari
+va vazni teng bo‘lsa, u holda bunday binar daraxt qanday
+muvozanatlangan daraxt deyiladi?
+ideal
+Binar daraxt muvozanatlangan deyiladi, agar uning
+ixtiyoriy bir tugunining xar ikkala qism daraxti balandligi
+farqi nechaga teng bo‘lsa?
+1
+Ideal muvozanatlangan daraxtda xar bir tugundan
+chiquvchi qism daraxtlar nimasiga teng xisoblanadi?
+balandlik
+Nechanchi yili muvozanatlangan AVL daraxtni taklif
+etishgan?
+1962
+AVL daraxtida xar bir tugunning o‘ng va chap qism
+daraxtlari balandliklari orasidagi farq nechchidan katta
+emas.
+1
+Ildizdan to eng pastgi tugungacha bo‘lgan tugunlar soni
+nima?
+balandlik
+Agar daraxt balandligi nechaga teng bo‘lsa, hech
+bo‘lmaganda 5ta taqqoslashni bajarishga to‘g‘ri keladi? 5
+Eng oddiy holatda daraxtni shunday qurish mumkinki,
+bunda uning balandligi elementlar soniga teng bo‘ladi va
+daraxt necha bog‘lamli ro‘yhatli bo‘lib chiqadi?
+1
+AVL-daraxtidan tugunni o‘chirish oddiy ikkilik daraxtidan
+shunga o‘xshash operatsiyani amalga oshirishdan ancha
+murakkab bo‘lib, necha bosqichlarni o‘z ichiga oladi?
+3
+new_node funksiyasi qanday tugunni yaratish uchun
+qo‘llaniladi?
+yangi
+Burib muvozanatlash algoritmining nechta usullari
+mavjud?
+4
+AVL daraxtda xar bir tugunning muvozanatlanganlik
+koeffisiyenti qanaqa to‘plamdan qiymat qabul qiladi ?
+(-1, 0, 1)
+Agar bit maydonida nechchi yozilgan bo‘lsa, demak, left va
+right ko‘rsatgichlar shu tugunni o‘ng va chap qism
+daraxtlarini ko‘rsatadilar?
+0
+… bu biror obyekt, jarayon, xodisa yoki voqeylikni ifodalab
+beruvchi belgi yoki belgilar majmuasi
+Malumot
+… bu tuzilmani tashkil qiluvchi elementlar va ular orasidagi
+bog`liqlikni ko'rsatib beruvchi munosabat
+Malumotlar tuzilmasi
+… bu tadqiq etilayaotgan obyekt, jarayonini ma'lum bir
+qonuniyatlar orqali ifodalash
+Abstrakt qism
+Ma`lumotlar tuzilmasini …. tasvirlash - bunda qaralayotgan
+ma`lumotlar tuzilmasi kompyuter xotirasida, aniqrog`I
+operativ xotirada qanday joylashishi tushuniladi.
+Fizik
+Ma‘lumotlar tuzilmasini …. tasvirlash - bu tuzilmani biror
+bir dasturlash tilida ifodalashdir. Mantiqiy
+… ko‘rinishidagi ma‘lumotlar tuzilmasi- bu shunday
+tuzilmaki , uning elementlari orasida hyech qanday
+munosabat o‘rnatilmagan.
+To`plam
+… – shunday
+abstrakt tuzilmaki, bunda R to‘plam faqatgina bita chiziqli
+munosabatdan iborat (ya‘ni, birinchi va ohirgi elementdan
+tashqari har bir element uchun o‘zidan oldin va
+keyinkeladigan element mavjud.
+Ketma-ketlik
+...– shunday tuzilmaki, bunda R munosabatlar
+to‘plami ikkita chiziqli munosabatdan tashkil topgan
+bo‘ladi.
+Matritsa
+...– bunda R to‘plam iyerarxik tartibdagi bitta
+munosabatdan tashkil topgan tuzilmadir.
+Daraxt
+..– bunda R munosabatlar to‘plami faqatgina bitta binar
+tartibli munosabatdan tashkil topgan bo‘ladi
+Graf
+...– bu shunday ma‘lumotlar tuzilmasiki, bunda R to‘plam
+ikki yoki undan ortiq turli tartibdagi munosabatlardan
+tashkil topgan bo‘ladi.
+Gipergraf
+Ma`lumotlar tuzilmasini … qilish -ma‘lumotlar tuzilmasini
+bir jinsli guruhlarga ajratish jarayoni
+Klassifikatsiya
+… ma‘lumotlar tuzilmasi - dastur bajarilishi mobaynida
+tuzilma elementlari soni va/yoki ular orasidagi
+munosabatlar o‘zgaradi.
+Dinamik
+… ma‘lumotlar tuzilmasi - dastur bajarilishi obaynida
+tuzilmani tashkil etuvchi elementlar, ular orasidagi
+munosabatlar o‘zgarmaydi.
+Statik
+Ma‘lumotlarni standart turlari… haqiqiy, mantiqiy, belgili
+(simvol), ko‘rsatkichli
+… – bu butun sonlar to‘plamini qandaydir qism
+to‘plamini ifodalab, uning qiymatlar sohasi kompyuter
+konfigurasiyasiga bog‘liq ravishda o‘zgarib turadi
+Butun tur
+… – mazkur turga kasr qismlari bor chekli sonlar
+to‘plami kiradi. To‘plamni chekli bo‘lish sharti
+kompyuterda sonlarni ifodalash chegaralanganligi
+bilan bog‘liq.
+Haqiqiy tur
+… - mazkur tur mantiqiy mulohazalarni to‘g‘ri
+yoki noto‘g‘riliginii aniqlash uchun ishlatilib, ushbu turdagi
+o‘zgaruvchi 2 ta qiymatdan faqatgina bittasini qabul qiladi:
+0 (false) yoki 1 (true).
+Matiqiy tur
+… – mazkur tur o‘zgaruvchilari belgili qiymatlarni qabul
+qilishadi, masalan, harflar, raqamlar, matematik belgilar va
+boshqalar.
+Belgili tur
+… – bu tur o‘zgaruvchilari ma‘lumotlarni
+ko‘rsatkichlari yoki manzillari (adres) to‘plamini namoyon
+qiladi,
+Ko‘rsatkichli tur
+… - bu eng sodda statik va chiziqli tartiblangan tuzilma. Vektor
+… - elementlari bir turga tegishli, ketma-ket joylashgan va
+umumiy nomga ega bo‘lgan
+tuzilmadir.
+Massiv
+… - maydon deb ataluvchi chekli sondagi ma‘lumotlar
+tuzilmasidir. Turli maydon o‘zgaruvchilari turli turga
+tegishli bo‘lishi mumkin.
+Yozuv
+… - bu yozuvning chekli majmuasidir. Jadval
+… – bu yozuv identifikatori. Ushbu identifikatorni saqlash
+uchun maxsus maydon ajratiladi
+Kalit
+... – bu shunday kalitki, u ikkidan ortiq maydonni o‘z ichiga
+oladi.
+Qo`shimcha kalit
+… – bu bir turga tegishli bo‘lgan elementlar ketmaketligidir.
+Ro`yxat
+FIFO - .. Firs input - First output
+.. – bunda tizimga kelib tushgan birinchi talabga
+birinchi bo‘lib xizmat ko‘rsatiladi va tizimdan
+chiqariladi
+Navbat
+… - bunda tizimga kelib
+tushgan oxirgi talabga birinchi
+bo‘lib xizmat ko‘rsatiladi va
+tizimdan chiqariladi.
+Stek
+… – bu ikki chetga ega bo‘lgan navbatdir. Talabga
+xizmat ko‘rsatish tizimning har ikkala tomonidan amalga
+oshirilishi mumkin.
+Dek
+… – bunda ro‘yxatni tashkil etuvchi elementlar orasidagi
+bog‘liqlik ko‘rsatkichlar orqali amalga
+oshiriladi.
+Bog‘langan ro‘yxat
+… ro‘yxat – bunda tuzilma elementlari ko‘pi bilan
+tuzilmaning m ta elementi bilan bog‘langan bo‘ladi
+m bog`lamli
+… – bunda ro‘yxatni tashkil etuvchi elementlar mavjud
+emas.
+Bo‘sh ro‘yxat
+… – bunda ro‘yxatni tashkil etuvchi elementlar orasidagi
+bog‘liqlik qat‘iy tartiblangan bo‘lib,
+element ko‘rsatkichi o‘zidan bitta navbatdagi yoki bitta
+oldingi element adresini o‘z ichiga oladi.
+Chizili ro‘yxat
+… - ro‘yxat elementlari ko‘rsatkichlari maydoni
+yagona bo‘ladi
+Bir bog‘lamli ro‘yxat
+... – chiziqli ro‘yxatda eng so‘ngi elementning ko‘rsatkichlari
+maydoniga ro‘yxatning birinchi elementi manzili
+o‘zlashtirilgan bo‘ladi.
+Halqasimon ro‘yxat
+...- bu elementlari soni bir hil faqatgina teskari ketmaketlikda yozilgan ikkita bir bog‘lamli ro‘yxatdir. Ikki bog‘lamli ro‘yxat
+… - uzilmani har bir elementi boshqa ixtiyoriy elementga
+va aksincha, har bir elementga tuzilmaning ixtiyoriy
+sondagi elementi murojaat qilishi mumkin.
+Chiziqsiz ma‘lumotlar
+tuzilmasi
+Qanday tushunchani birinchi marotaba 1936 yil vengriya
+matematigi Denni Kyonig kiritgan?
+Graf
+isEmpty() ni vazifasi? navbatni bo‘shlikka tekshirish
+enqueue(el) ni vazifasi.? el elementni navbatga joylashtirish
+dequeue() ni vazifasi.? navbatdan birinchi elementni olish
+Navbatning birinchi elementini uni o‘chirmasdan
+qaytaradi?
+firstEl()
+Next ni vazifasi?. keyingi elementga ko‘rsatkich
+Balandlik bu nima.? bu daraxt bosqichi soni
+Tugun balandligi bu? height
+R(right)-ni vazifasi qanday? bir marta o‘ngga burash
+L(right)-ni vazifasi qanday? bir marta chapga burash
+L(left) R(right)-ni vazifasi qanday? chapga va o‘ngga burish
+R(right) L(left)-ni vazifasi qanday? chapga va o‘ngga burish
+Vertex Degree-qanday manoni anglatadi? tugun darajasi
+Bironta tugundan boshqa bir tugungacha bo'lgan yonmayon joylashgan tugunlar ketma-ketligi nima?
+Yo'l
+Qanday tushunchani birinchi marotaba 1936 yil vengriya
+matematigi Denni Kyonig kiritgan?
+Graf
+clear() ni vazifasi.? navbatni tozalash
+Boshi va oxiri tutashuvchi tugundan iborat yo'l nima
+hisoblanadi?
+Halqa(crcle)
+Istalgan tugunlari qo'shni bo'lgan graf xisoblanadi yani
+barcha tugunlar o'zaro birlashtirilgan bo'lsa bu..? To'liq graf (complete graph)
+int main(){
+int n = 757, x, y, z;
+x = n / 100;
+y = n / 10 % 10;
+z = n % 10;
+bool OK = x != y && y != z;
+cout << OK;
+return 0; } Ushbu dastur natijasini toping
+1
+Malumotlarni tasvirlash bosqichlari nechta 3.
+Ob’yekt, xodisa yoki biror bir jarayonni matematik
+formulalar orqali ifodalash qaysi bosqichga kiradi
+abstrak
+Ma’lumotlar tuzilmasini biror bir dasturlash tilida
+ifodalanishi qaysi bosqichga kiradi
+mantiqiy
+Qaysi bosqichda EXM xotirasi chekli bo`lganligi sababli,
+xotirani taqsimlash va uni boshqarish muammosi hal qiladi fizik
+......-biror bir ob’yekt, jarayon, xodisa yoki voqelikni
+ifodalab beruvchi belgi yoki belgilar majmuasidir.Nuqtalar
+o’rniga mos javobni qo’ying.¬¬¬¬
+Malumot
+Butun sonlar tipini ko’rsating int
+.Xaqiqiy sonlar tipini ko’rasting float
+Mantiqiy sonlar tipini ko’rsating bool
+Belgili sonlar tipini ko’rsating char
+.Butun sonlar turi qanday turga bo’linadi ishorali va ishorasiz
+Ma’lumotlar tuzilmasi necha xil usulda uzatiladi? 4
+Foydalanuvchi tomonidan aniqlanadigan toifalar necha
+xil? 2
+Foydalanuvchi tomonidan aniqlanadigan toifalar qaysilar? diapozonli va sanaladigan
+C++ dasturlash tilida satrlar chegarasi qancha bo’ladi? 0 dan 255 gacha
+Belgili toifalar necha xil bo’ladi? 2
+Belgili toifalar qaysilar? o’zlashtirish va taqqoslash
+Stek qanday elon qilinadi? Stack <toifa> stek_nomi;
+clear() qanday vazifa bajaradi? stekni tozlayadi
+pop() qanday vazifa bajaradi? stekdan elemantni o’chiradi
+push(el) qanday vazifa bajaradi? elememnt kiritadi
+Yarimstatik ma‘lumotlar tuzilmasiga nimalar kiradi stek, dek, navbat
+Stek qanday prinsip boyicha ishlaydi oxirgi kelgan birinchi ketadi
+Daturning qiymatini toping?
+#include <iostream>
+using namespace std;
+int main()
+{
+int a=3,b;
+b=a+3;
+cout>>b;
+return 0;}
+6
+Qiymatni hisoblang ?
+Int n,S;
+cin>>n; //5
+S=0;
+for(int i=0; i<=n;i++)
+S+=I;
+cout<<S;
+15
+dastur natijasini toping
+....
+int main()
+{ int a=7;
+cout<<a<<" ";
+cout<<a++<<" ";
+cout<<++a;
+return 0; }
+7 7 9
+Ushbu dastur natijasi nima chiqadi?
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main ()
+{int x,y; //x=132 y=7
+cin>>x>>y;
+cout<<(x%y);
+return 0; }
+6
+Ushbu dastur natijasi nima chiqadi?
+#uinclude <iostream>
+using namespace std;//a=30 b=40
+int main (){
+int a,b,c;
+cin>>a>>b;
+c=a>b?a:b;
+cout<<c;
+return 0; }
+40
+Registorlarni vazifasi nima? Dasturni bajarilish tezligini ortirib
+beradi
+Algoritm xossalari nechta? 5
+bitta asosdan tarqalgan tuzilma qaysi tuzlimaga misol
+bo’ladi? daraxt
+Malumotlar tuzilmasining asosiy ko’rinishi necha turga
+bo’linadi? 6
+Malumotlar tuzilmalari to’g’ri keltirilgan javobni
+aniqlang? MMT VA FMT
+Malumotlar tuzilmasi necha xil? 2
+Daraxt ko‘ruvini amalga oshirish uchun nechta
+prosedurani bajarish kerak?
+3
+Daraxtlar ustida bajariladigan amallar necha tur? 3
+Daraxt – bu nima? bu chiziqsiz bog‘langan
+ma‘lumotlar tuzilmasidir
+nonRecursiveReverse() har bir iteratsiyada kamida nechta
+murojaatdan foydalanadi. 1 ta
+Rekursiv ta'riflar nech xil maqsadda xizmat qiladi: 2
+Dumli rekursiya faqatgina nechta rekursiv murojaatni
+funksiya oxirida qo‘llash orqali xarakterlanadi. 1
+aktivatsiya rekordi ishga tushirish vaqti stekida yaratiladi. run-time stack
+Dumli rekursiya faqatgina bitta rekursiv murojaatni
+funksiya qayerida qo‘llaydi oxirida
+Agar oxirgi element birinchi element ko’rsatkichi bilan
+bog’langan bo’lsa qanday ro’yhat deyiladi halqasimon
+Agar har bir element o’zidan oldingi va o’zidan keyingi
+element bilan bog’langan bolsa qanday ro’yhat deyiladi ikki bog’lamli
+Tuzilmada elementlar o‘zidan keyingi element bilan
+bog‘langan bolsa qanday ro’yhat deyiladi bir bog’lamli
+Dinamik tuzilmada elementlar qayerdav joylashadi xotiraning istalgan qismida
+Dastur bajarilishi mobaynida o‘zgarib turadigan
+tuzilmaga nima deyiladi dinamik
+Pop_front()-qanday vazifani bajaradi oxiridan element chiqarish
+. Dek bilan ishash uchun qaysi kutubxona chaqiraladi? #include<deque.h>
+Dek so‘zi qanday manoni anglatadi? 2 ta chetga ega
+dequeue()-qanday vazifa bajaradi navbatni birinchi elementini olish
+enqueue(el) qanday vazifa bajaradi? elementni navbatga joylashtiradi
+Ma'lumotlar tuzilmasi fanida daraxt so`zi ko`pincha
+qanday nomlanadi?
+Tree
+O`ziga murojaat qiluvchi funksiya? Rekursiv
+...– bu bironta ob‘ektga tegishli turli toifadagi maydonlar
+to‘plamidir.
+Yozuv
+Primitiv toifalar (...) ma‘lumotlarning sodda toifalari
+Ma‘lumotlar toifalari … turga ajratiladi 3
+... – elementlarni ma‘lum bir tartibda joylashtirish amali Saralash
+… - tuzilmadan bironta elementni joylashgan o‘rnini
+aniqlash amali
+Qidirish
+... - tuzilma elementlariga 1 martadan murojaat qilish
+amali. Ko‘rikdan o‘tkazish (traversing)
+... – xar bit amal oddiy va soda bo‘lishi kerak Samaradorlilik
+Qiymat qaytarmaydigan funksiya qaysi? void
+if(n<0){cout<<a;} else{cout<<a-1;} a=3,n=0 bo`lsa,
+ekranga qanday qiymat chiqadi?
+2
+if(n<0){cout<<a;} else{cout<<a-1;} a=3,n=-2 bo`lsa,
+ekranga qanday qiymat chiqadi?
+3
+if(n=>0){cout<<a;} else{cout<<a-1;} a=3,n=-2 bo`lsa,
+ekranga qanday qiymat chiqadi?
+dastur xato
+if(n=>0){cout<<a;} else{cout<<a-1;} a=5,n=-2 bo`lsa,
+ekranga qanday qiymat chiqadi?
+dastur xato
+for(int i=5;i<8;i++){...} ushbu sikl necha marta
+takrorlanadi?
+3
+for(int i=5;i<=8;i++){...} ushbu sikl necha marta
+takrorlanadi?
+4
+for(int i=0;i<=8;i++){...} ushbu sikl necha marta
+takrorlanadi?
+9
+Sharti keyin beriladugan sikl operatori? do{...}while(…)
+Sharti oldin beriladugan sikl operatori? while(…){…}
+Parametrli sikl operatori qaysi? for(…){…}
+do{…}while(n>0) n=0 bo`lganda sikl necha marta
+takrorlanadi? 1
+for(int i=1; i<n;i++){n--;} n=0 bo`lganda sikl necha marta
+takrorlanadi? cheksiz
+switch quyidagi tiplarning qaysi biri bilan ishlaydi? int
+int aloqa(){int a=5; return a;} funksiya nomini toping aloqa
+for(int i ; i<=10 ; i++) - bu siklda [i] nima? sikl parametri
+Ma’lumot nima?
+#Bu biror bir obyekt, jarayon, xodisa yoki voqyelikni ifodalab (tasniflab) beruvchi belgi yoki belgilar majmuasidir
+Ma’lumotlar tuzilmasi – bu …?
+#Bu tuzilmani tashkil qiluvchi elementlar(ma’lumotlar) va ular orasidagi bog’liqlikni ko’rsatib beruvchi munosabatlar
+majmuasidir
+Abstrakt (matematik) tasvirlash – bu …?
+#Bu tadqiq etilayotgan obyekt, jarayonni ma’lum bir qonuniyatlar (matematik) orqali ifodalashdir
+Ma’lumotlar tuzilmasini mantiqiy tasvirlash – bu …?
+#Bu tuzilmani biror bir dasturlash tilida ifodalashdir
+Ma’lumotlar tuzilmasini fizik tavsirlash – bunda …?
+#Bunda qaralayotgan ma’lumotlar tuzilmasi kompyuter xotirasida, aniqrog’i, operativ xotirada qanday joylashishi tushuniladMa’lumotlar tuzilmasi nech turga bo’linadi?
+#2 turga: Oddiy va integrallashgan
+Tuzilmalarning o’zgaruvchanlik xususiyatiga qarab nechta shaklga ajratish mumkin?
+#3 turga: Statik, yarimstatik va dinamik
+Malumotlarni adreslashning mavjud barcha usullari necha guruhga ajraladi?
+#2 ga; To'g'ridan-to'g'ri(bevosita) va bilvosita
+Ixtiyoriy mashina komandasi kodi necha maydondan tashkil topgan?
+#Ammallar va adreslashdan tashkil topgan
+Ma'lumotlarning abstrakt(mavhum) turlari - bu ?
+#Bu matematik model va shu model doirasida aniqlangan turli xil operatorlardir
+Zamonaviy hisoblash tizimlarida adreslash uchun necha razryaddan tashkil topgan bayt-yacheyka birligi qo’llaniladi?
+#Ikkilik 8 zaryad
+Odatda o'ta tezkor hotira nimadan tashkil topgan
+#Registrlardan
+Registrlar nima uchun qo'llaniladi
+#Ma'lumotlarni vaqtincha saqlab turish va akslantirish
+Kompyuterda eslab qoluvchi qurilmalarni asosiy nechta ko’rinishi mavjud?
+#O’ta tezkor, tezkor va tashqi xotira
+Dasturlash -?
+#Bu nafaqat aqliy faoliyatni avtomatlashtirish, balki, ilmiy tadqiqot predmeti hisoblanadi
+Tezkor xotira -?
+#Ma’lumotlarni o’z muhitida nisbatan doimiy saqlash uchun mo’ljallangan
+Ma'lumotlar tuzilmasining statik shakli qandan taqsimlangan
+#Vektor, massiv, toplam, yozuv, jadval
+Ma'lumotlar tuzilmasining oddiy-tayanch shakli qandan taqsimlangan
+#Sonli, belgili, mantiqiy, sanaladigan, intervalli(diapazonli), ko'rsatkichli
+Cheksiz rekursiv funksiya nima?
+#TJY
+Qandaydir ob’ekt yoki jarayonni ushbu ob’ekt yoki jarayonning o’zining ichida tasvirlash orqali aniqlanishi, ya’ni ob’ekt
+o’zining bir qismi sifatida ifodalanishi hisoblanadi
+Kalit deb ataluvchi sonli maydon
+O’zini o’zi qaytarish funksiyasi
+Birlashtirishli saralash usulining kamlichiliklaridan biri?
+#U xotirada fayl hajmiga teng katta joy talab qiladi
+C++ da amallar necha guruhga bo’linadi?
+#2 ga: Unar va Binar
+Sinfning private qismida qanday jarayon ifodalanadi?
+#Private – sinfning yopiq bo’limi Bu bo’limdagi metod va maydonlarga faqat sinf ichida murojaat qilish mumkin Bu bo’lim
+“ichki interfeys”ni tashkil qiladi Jimlik holatida sinfning barcha maydonlari – private;
+Sinfning Public qismida qanday jarayon ifodalandi?
+#Public – sinfning ochiq (oshkor) bo’limi Bu bo’limdagi maydonlar va metodlarga sinfning ichki va bir vaqtning o’zida tashqi
+maydon va metod sifatida murojaat qilish mumkin Ushbu bo'lim "tashqi interfeys" ni tashkil qiladi;
+Sinfning protected qismida qanday jarayon ifodalanadi?
+#protected – sinfning maxsus o’lchami Bunda maydon va metodlarga sinf ichida murojaat qilish mumkin, shuningdek,
+merosxo’r sifatida “qism” sinfda murojaat o’rnatish mumkin bo’ladi
+Sinfda konstruktorlarning qanday turlari mavjud?
+#parametrsiz, parametrli, nusxalash
+Standart shablonlar kutubxonasi tarkibiy qismlari qaysilar?
+#konteynerlar, algoritmlar, iteratorlar
+Merosxo’rlik dab foydalanish deganda nimani tushunasiz?
+#bir sinfning metod va o’zgaruvchilarini boshqa bir sinf metod va o’zgaruvchisi sifatida foydalanish
+Qanday o’zgaruvchilarni meros qilib olib bo’lmaydi?
+#Public
+Konstruktorlar va destruktorlar merosxo’r bo’ladimi?
+#Yo’q, sababi ular bola sinifi o’z ob’ektini ishga tushurilganda chaqirilmaydi
+Almashtirish printsipi deb nimaga aytiladi?
+#Tayanch sinf obekti o’rniga hosila sinf obektidan foydalanish
+“Polimorfizm” dan nima uchun foydalaniladi?
+#Ikki yoki undan ortiq o'xshash, ammo har xil vazifalarni hal qilish uchun bir xil funksiya nomidan foydalanish uchun
+Metodda qo’llaniladigan funksiya tayanch sinfda virtual e’lon qilingan bo’lishi shart qaysi qaysi hususiyat uchun aytilgan?
+#Polimorfizm
+Virtual funksiyalar mexanizmiga har bir hosila sinf uchun ma'lum bir komponent funksiyasining o'z versiyasini talab qiladiganhollarda murojaat qilinadi Bunday funksiyalarni o'z ichiga olgan sinflar qanday nomlanadi?
+#polimorfik
+Asosiy sinfning har qanday statik bo'lmagan funksiyasini qanday kalit so'z yordamida virtual qilish mumkin?
+#vertual
+Polimarfizimni amalga oshirishning qulayligi?
+#asosiy ob'ekt usullarini bir xil nomga ega bo'lgan hosila ob'ekti usullari bilan almashtirishga imkon beradi
+Abstrakt (tayanch) sinflarning xossalari?
+#a,b,c javoblar to'g'ri
+Abstrakt metodlari -?
+#bu hech bo‘lmaganda bitta sof virtual sinfga ega bo‘lgan sinf Bunday sinflardagi sof virtual funksiyalar abstrakt metodlari denomlanadi
+Abstrakt sinif -?
+#hech bo‘lmaganda bitta sof virtual sinfga ega bo‘lgan sinf
+C++ dasturlash tilida konstruktor va destruktor merosxorlik bola oladimi?
+#bola olmaydi lekin ular bola sinfi o'z ob'ektini ishga tushirganda chaqiriladi
+Sinf uchun berilgan noto’g’ri tasdiqni toping
+#bu dasturda ishlatiladigan ma'lumotlar maydonlari va usullarini birlashtirishga va foydalanuvchidan ichiki interfeys detallariyashirishga imkon beruvchi dasturlash mexanizmi
+Sinfning private qismida qanday jarayon ifodalanadi?
+#private – sinfning yopiq bo’limi Bu bo’limdagi metod va maydonlarga faqat sinf ichida murojaat qilish mumkin Bu bo’lim
+“ichki interfeys”ni tashkil qiladi Jimlik holatida sinfning barcha maydonlari – private;
+Sinfning Public qismida qanday jarayon ifodalandi?
+#public – sinfning ochiq (oshkor) bo’limi Bu bo’limdagi maydonlar va metodlarga sinfning ichki va bir vaqtning o’zida tashqi
+maydon va metod sifatida murojaat qilish mumkin Ushbu bo'lim "tashqi interfeys" ni tashkil qiladi
+Sinfning protected qismida qanday jarayon ifodalanadi?
+#protected – sinfning maxsus o’lchami Bunda maydon va metodlarga sinf ichida murojaat qilish mumkin, shuningdek,
+merosxo’r sifatida “qism” sinfda murojaat o’rnatish mumkin bo’ladi
+Sinfda konstruktorlarning qanday turlari mavjud?
+#parametrsiz, parametrli, nusxalash
+Ob’ektga yo‘naltirilgan dasturlash (OYD) –?
+# dasturning har biri ma'lum bir sinfning namunasi bo'lgan avtonom harakat qiluvchi ob'ektlar to'plami sifatida namoyish
+etishga asoslangan dasturiy ta’minot yaratish texnologiyasi
+Sinf----…?
+#yaratilmagan ob’ektning shabloni Sinfning barcha ma’lumotlari uning maydonlarida saqlanadi Sinf maydoni – sinf
+yaratilayotgan vaqtida dasturchi tomonidan tavsiflanadigan o‘zgaruvchi Sinfda tatbiq etiladigan funksiya uning metodi deb
+ataladi
+Interfeyslar necha turga bolinadi?
+#b va c javoblar to'g' ri
+Inkapsulatsiya ga to'g' r tarifni korsating?
+# bu sinfda ishlatiladigan ma'lumotlar maydonlari va usullarini birlashtirishga va foydalanuvchidan ichiki interfeys detallarini yashirishga imkon beruvchi dasturlash mexanizmi
+Ichki interfeys-?
+# bu faqat ushbu ob'ektning boshqa usullaridan foydalanish mumkin bo'lgan xossalar va usullari, ular "xususiy" deb ham
+nomlanadi
+Tashqi interfeys – bu?
+#bu ob'ekt tashqarisidan kirish mumkin bo'lgan xossalar va usullar, ular "ommaviy" deb nomlanadi
+Konstruktorga berilgan to'g'ri tarifni korsating
+# yangi ob’ektlar yaratish uchun xizmat qiluvchi maxsus metod
+Konstruktorning necha turi mavjud?
+#2; parametirli va parametirsiz
+Parametrsiz konstruktorning to'gri tatbiq qilinishi korsating
+#Point()
+ {
+ x = 0;
+ y = 0;
+ };
+Nusxalash konstruktorning to'gri tatbiq qilinishi korsating
+Point()
+ {
+ x = 0;
+ y = 0;
+ };
+Point(int x1, int y1)
+ {
+ x = x1;
+ y = y1;
+ };
+Point(const Point& b)
+ {
+ x = bx;
+ y = b;
+ };
+#TJY
+~Point()
+{
+};
+Desturoktor- bu?
+#blokdan chiqqanda ob'ektni yo'q qiladigan maxsus usul C ++ algoritmik tilida destruktorni amalga oshirish
+Sinfning barcha malumotlari qayerida joylashgan?
+#uning maydonida
+Parametirli konstruktorning to'gri tatbiq qilinishi korsating
+#Point(int x1, int y1)
+ {
+ x = x1;
+ y = y1;
+ };
+Sinf maydoniga berilgan to'g'ri tarifni korsating
+#sinf yaratilayotgan vaqtida dasturchi tomonidan tavsiflanadigan o‘zgaruvchi
+Sinf o’zgaruvchilarini instalyatsiya qilish uchun kerakli funksiya bu …
+#Konstruktorlar funksiyalar deyiladi
+Qanday sinf turida funksiya parametrining turini yoki qaytarilgan ob'ekt turini aniqlash uchun foydalanib bo'lmaydi
+#Abstrakt sinfda
+Chiziqli qidiruv algoritmda qidirilayotgan element X qanday topiladi?
+#Massivning barcha elementlarini qidirilayotgan qiymat X bilan ketma-ket chapdan o’nga qarab taqqoslab topiladi
+Binary qidiruv algoritmi qanday ishlaydi?
+#Qidirishning chegaraviy qism aniqlanadi left va right, O’rta indeks aniqlanadi-mid, agar X o’rtadagi sondan katta bo’lsa
+left=mid+1, aks holda right=mid-1, shu algoritm x topilmaguncha takrorlanadi
+Qidiruv algoritmi nima?
+#Qidiruv algoritmi deyilganda qidirilayotgan elementni mavjud elementlar orasidan topish ketma ketligi tushuniladi
+Chiziqli algoritmning qidiruv bahosi ifodasi qanday?
+#O(n)
+Binary qidiruv algoritmining qidiruv bahosi qanday?
+#O(log2(n))
+Interpolyatsiya qidiruv usulining binar qidiruvdan asosiy farqi?
+#Interpolyatsiya qidiruvda qiymatlardan tashqari matnli axborotni ham qidirish mumkin
+Qidiruv algoritmida Interpolyatsiya usulidan foydalanish uchun massiv elementlari orasida qanday shart bajarilishi kerak?
+#Massiv elementlari saralangan bo’lishi kerak
+Chiziqli qidiruv va interpolyatsiya qidruvlarning bir-biridan farqi?
+#Interpolyatsiya usulida Massiv saralangan bo’lishi kerak Chiziqli qidiruvda bu muhim emas
+Binary va chiziqli qidiruv algoritmida elementlari qidirish jarayonida ularni solishtirish qismida qanday farqlar mavjud?
+#Chiziqli qidirish algoritmi faqat tenglikka asoslanadi Ikkilik qidirish esa tenglik, katta yoki kichiklikka qarab, o’z ishini davom ettiradi
+“Xeshlash” bu …?
+#bu jarayon bo’lib, ingliz tilida - chopish, aralashtirish kabi ma’nolarni anglatadi
+Shifrlash va Xeshlash o’rtasida qanday farq mavjud?
+#Shifrlashda ma’lumot shifrlangandan keyin shifrlangan ma’lumotni asl holatiga qaytarish mumkin Xeshlash bu bir tomonlamjarayon ma’lumotni tiklab bo’lmaydi
+Xeshlashda ma’lumot xeshlangandan keyin xeshlangan ma’lumotni asl holatiga qaytarish mumkin Shifrlash bu bir tomonlamjarayon ma’lumotni tiklab bo’lmaydi
+Xeshlash da Shifrlash paytida qo'shimcha qadam bo'lib, odatda parolni yig'ish assotsiatsiyasida ko'rish mumkin, bu parol
+oxiriga ishlab chiqarilgan shifrlangan qiymatini o'zgartiradigan qo'shimcha qiymat qo'shadi Shifrlashda esa aksincha
+Xesh jadval bu – ?
+Turli xil tarkibga ega bo’lib, xesh – kodlari bir xil bo’lgan massivlar to’plami
+To’g’ri javob berilmagan
+#bu assotsiativ massiv interfeysini amalga oshiradigan ma’lumotlar tuzilmasi, ya'ni har bir elementi juftliklar (kalit, qiymat)nisaqlovchi tuzilma bo’lib, unda uchta operatsiyani bajarish imkoni mavjud: yangi juftlikni qo'shish, qidirish va kalit yordamida
+juftlikni o’chrish
+Matematik terminlar bilan aytilsa bu in’ektiv akslantirishdir
+To’g’ri mulohazani toping?
+Xeshlash - bu ikki tomonga mo'ljallangan funktsiya bo'lib, unda ma'lumot keyinchalik sindirilmaydigan qilib yig'iladi
+#Hashing bu bir tomonlama funksiya bo'lib, unda ma'lumotlar belgilangan uzunlikdagi qiymat bilan taqqoslanadi Hashing
+asosan autentifikatsiya uchun ishlatiladi
+Xeshlash ma'lumotlarni uzatishda himoya qilish uchun mo'ljallangan bo'lsa, shifrlash bu fayl yoki ma'lumotlarning
+o'zgartirilmaganligini - uning haqiqiyligini tekshirishni anglatadi
+Xeshlashda ma’lumot xeshlangandan keyin xeshlangan ma’lumotni asl holatiga qaytarish mumkin Shifrlash bu bir tomonlamjarayon ma’lumotni tiklab bo’lmaydi
+To’g’ri mulohazani toping?
+Xeshlashda ma’lumot xeshlangandan keyin xeshlangan ma’lumotni asl holatiga qaytarish mumkin Shifrlash bu bir tomonlamjarayon ma’lumotni tiklab bo’lmaydi
+Xeshlash - bu ikki tomonga mo'ljallangan funktsiya bo'lib, unda ma'lumot keyinchalik sindirilmaydigan qilib yig'iladi
+Xeshlash ma'lumotlarni uzatishda himoya qilish uchun mo'ljallangan bo'lsa, shifrlash bu fayl yoki ma'lumotlarning
+o'zgartirilmaganligini - uning haqiqiyligini tekshirishni anglatadi
+#ma’lumot saqlash yoki uzatishdagi tasodifiy yoki ataylab qilingan xatolarni aniqlash maqsadida nazorat uchun yig’indilarni
+hisoblashda Xeshlashdan foydalanish mumkin
+To’g’ri mulohazani toping?
+Xeshlash - bu ikki tomonga mo'ljallangan funktsiya bo'lib, unda ma'lumot keyinchalik sindirilmaydigan qilib yig'iladi
+#Turli xil tarkibga ega bo’lib, xesh – kodlari bir xil bo’lgan massivlar to’plami kolliziya deyiladi
+har bir elementi o’zoro biriktirilgan ikki qismdan iborat massivlar (masalan, lug’at shaklidagi massiv) hosil qilishda Xeshlashdafoydalanib bo’lmaydi
+Kolliziyalar yuzaga kelish ehtimoli tanlangan xesh-funksiyaning sifatini baholashda muhim ro’l o’ynaydi Bu ehtimol miqdori
+qanchalik katta bo’lsa, tanlangan xesh-funksiya shunchalik yaxshi bo’ladi
+To’g’ri mulohazani toping?
+#Xesh funksiya 2 ta xossaga ega bo’lishi kerak:1) yuqori hisoblash tezligi;2) kam miqdordagi “kolliziyalar”
+Kolliziyalar yuzaga kelish ehtimoli tanlangan xesh-funksiyaning sifatini baholashda muhim ro’l o’ynaydi Bu ehtimol miqdori
+qanchalik katta bo’lsa, tanlangan xesh-funksiya shunchalik yaxshi bo’ladi
+har bir elementi o’zoro biriktirilgan ikki qismdan iborat massivlar (masalan, lug’at shaklidagi massiv) hosil qilishda Xeshlashdafoydalanib bo’lmaydi
+Xeshlash - bu ikki tomonga mo'ljallangan funktsiya bo'lib, unda ma'lumot keyinchalik sindirilmaydigan qilib yig'iladi
+No’to’g’ri mulohazani toping?
+#Kolliziyalar yuzaga kelish ehtimoli tanlangan xesh-funksiyaning sifatini baholashda muhim ro’l o’ynaydi Bu ehtimol miqdori
+qanchalik katta bo’lsa, tanlangan xesh-funksiya shunchalik yaxshi bo’ladi
+Turli xil tarkibga ega bo’lib, xesh – kodlari bir xil bo’lgan massivlar to’plami kolliziya deyiladi
+Yaxshi Xesh funksiya 2 ta xossaga ega bo’lishi kerak:1) yuqori hisoblash tezligi;2) kam miqdordagi “kolliziyalar”
+ma’lumot saqlash yoki uzatishdagi tasodifiy yoki ataylab qilingan xatolarni aniqlash maqsadida nazorat uchun yig’indilarni
+hisoblashda Xeshlashdan foydalanish mumkin
+No’to’g’ri mulohazani toping?
+#Xeshlash da Shifrlash paytida qo'shimcha qadam bo'lib, odatda parolni yig'ish assotsiatsiyasida ko'rish mumkin, bu parol
+oxiriga ishlab chiqarilgan shifrlangan qiymatini o'zgartiradigan qo'shimcha qiymat qo'shadi Shifrlashda esa aksincha
+Xesh jadval bu assotsiativ massiv interfeysini amalga oshiradigan ma’lumotlar tuzilmasi, ya'ni har bir elementi juftliklar (kalit,qiymat) ni saqlovchi tuzilma bo’lib, unda uchta operatsiyani bajarish imkoni mavjud: yangi juftlikni qo'shish, qidirish va kalit
+yordamida juftlikni o’chrish
+Kolliziyalar yuzaga kelish ehtimoli tanlangan xesh-funksiyaning sifatini baholashda muhim ro’l o’ynaydi Bu ehtimol miqdori
+qanchalik kichik bo’lsa, tanlangan xesh-funksiya shunchalik yaxshi bo’ladi
+“xeshlash” – bu jarayon bo’lib, ingliz tilida - chopish, aralashtirish kabi ma’nolarni anglatadi
+Xesh funksiyalarda Kolliziyalar bilan kurashish usullari qaysi javobda to’g’ri berilgan?
+#zanjirsimon bog’lanish usuli, ochiq adresslash usuli
+Bog’langan va bog’lanmagan
+Universal va ideal
+Bazaviy va Strukturaviy
+Kriptografik xesh funksiyalarning qanday turlari mavjud?
+Unversal va ideal
+Bog’langan va bog’lanmagan
+Bazaviy va strukturaviy
+#Kalitli xesh funksiya , Kalitsiz xesh funksiya
+Kalitsiz xesh funksiyalarga noto’g’ri berilgan tarifni toping?
+Kalitsiz xesh funksiyalar xatolarni topish kodi (modification detection code(MDC) yoki manipulation detection code, massageintegrrity code(MIC) deb ataladi
+Odatda kalitsiz xesh funksiyalardan quyidagi xossalarni qanoatlantirishi talab qilinadi:1) bir tomonlilik; 2) kolliziyaga
+bardoshlilik; 3) xesh qiymatlari teng bo’lgan ikkita ma’lumotni topishga bardoshlilik
+Hammasi to’g’ri
+#Kalitsiz xesh funksiyalar simmetrik shifrlash algoritmi tizimlarida qo’llaniladi
+Daraxt yordamida saralash usulini asosini qanday qidiruv daraxti tashkil etadi?
+unar
+#binar
+maxsus aperatorlar yordamida
+a va b javoblar
+Binar qidiruv daraxtining xususiyatlar to'g'ri berilgan qatirni toping?
+Ikkala shoxi ham – chap va o’ng ikkilik qidiruv daraxti hisoblanadi
+Istalgan chap shox kaliti o’zi chiqqan daraxtning kalitidan kichik
+Istalgan o’ng shox kaliti o’zi chiqqan daraxtning kalitidan kichik emas
+Ikkala shoxi ham – chap va chap ikkilik qidiruv daraxti hisoblanadi
+Istalgan o'ng va chap shoxi kaliti o’zi chiqqan daraxtning kalitidan kichik
+#a va b javoblar
+Binar qidiruv daraxting qaysi shoxi qidiruv shoxi hisoblanadi?
+chap
+hech qaysi
+o'ng
+#a va c
+Piramidali saralash usuli kim yaratgan?
+#DVillyams
+Rober Guk
+SVillyams
+TJY
+Piramidali daraxt qanday saralash daraxti usuliga kiradi ?
+bir tomonlama
+#ikki tomonlama
+uch tomonlama
+c javob togri
+Piramidaning minimal elementini toping ?
+#a[0]
+a[1]
+Piramidali tartiblashning asl qoyasi nimada edi?
+#umumiy arifmetik elementlardan olingan piramidaning oldindan yasalishi va elementlarning tartiblashidir
+faqat bitta element uchun arifmetik elementlardan olingan piramidaning tayyor holatidan keyin yasalishi va elementlarning
+taqsimlash
+TJY
+a va b javoblar
+Piramidali saralashda eng yomon holatda elementlarning qadamlar soni qanday o'zgaradi?
+( log 2 asosga kora olinganida)
+n^n/2
+n^n/3
+#n^n
+n
+Piramidali almashtirishlarning o'rtacha soni quydagi qaysi amal yoradamida o'zgaradi
+( log 2 asosga kora olinganida)
+n^n/3
+n^n
+n
+#n^n/2
+Tez saralash usuli?
+faqat bitta element uchun arifmetik elementlardan olingan piramidaning kochirma holatidan keyin uzatilishi va
+elementlarning taqsimlash
+#faqat bitta element uchun arifmetik elementlardan olingan piramidaning tayyor holatidan keyin yasalishi va elementlarningtaqsimlash
+umumiy elementlar uchun arifmetik elementlardan olingan piramidaning kochirma holatidan keyin yasalishi va
+elementlarning taqsimlash
+TJY
+To'g'ridan to'g'ri saralashda eng samarasiz usul qaysi?
+daraxtsimon saralash
+piramidali saralash
+tez saralash usuli
+#pufakchali saralash
+Tezkor saralash usuli ixtirochisi kim bolgan?
+#ChXoar
+DVillyams
+Rober Guk
+SVillyams
+Fayillarni asosiy saralash metodi?
+pufakchali
+daraxt
+piramidali
+#birlashtirishli
+Birlashtirishli saralash usuli bu -?
+faqat bitta element uchun arifmetik elementlardan olingan piramidaning kochirma holatidan keyin uzatilishi va
+elementlarning taqsimlash
+umumiy elementlar uchun arifmetik elementlardan olingan piramidaning kochirma holatidan keyin yasalishi va
+elementlarning taqsimlash
+#ma’lum bir ketma-ketlikdagi tartiblangan ma’lumotlar ro’yxatini (yoki boshqa tuzilma, elementlariga faqat ketma-ket
+murojaat qilsa bo’ladigan) saralash algoritmi
+a va c javoblar
+Birlashtirish saralash usulining kamchiligi nimada?
+dastur ishlash jaroyoni asta amalga oshadi
+# u xotirada fayl hajmiga teng katta joy talab qiladi
+a va b javolar
+tashqi hotira uchun katta joy talab qiladi
+Massivlarni saralashning asosiy xususiyati nimada?
+Ma’lumotlarni buzilib ketishligidan saqlash
+TJY
+#Tezkor xotirada ishlashni minimallashtirishdan iborat
+O’sish yoki kamayish tartibida saralash
+Saralash algoritmlari necha guruhga bo’linadi?
+3 ga: Qo’yish orqali, tanlash asosida saralsh, almashtirish orqali saralash
+#2 ga: massivda saralash, faylda saralash
+2 ga: Faylda saralash, qo’yish orqali saralash
+2 ga: binary va chiziqli
+Massivda saralsh usullarini nechta sinfga ajratish mumkin?
+#3 ga: qo’yish orqali, tanlash asosida, almashtirish orqali saralash
+2 ga: o’sish va kamayish
+2 ga: binary va chiziqli
+Faylda saralash, to’g’ridan-to’g’ri qo’yish orqali saralash
+Saralashdan asosiy maqsad
+#saralangan ma’lumotlarni qayta ishlash jarayonida zarur bo’ladigan elementni tez va oson qidirib topishni soddalashtirishdaiborat
+eskirgan malumotlarni oson boshqasiga almashtirishdan iborat
+fayillarda kichik joy olish uchun
+Massivlarning qanday turlari mavjud?
+#dinamik va statik massivlar
+statik massiv
+dinamik massiv
+konservativ massivlar
+Dinamik massiv bu?
+Stekdagi barcha elementlarning o’zidan oldingi elementga bog’liq bo’lishi
+Navbat
+#O'z hajmini o'zi o'zgartira oladigan massiv
+Stek
+Massivlarni saralash algaritimlari necha guruhga bolinadi?
+3 ga
+#2 ga
+4 ga
+1 ga
+Agar n ta kalitning almashishi bir xil ehtimolli bo’lsa taqqoslashlar soni nimaga teng boladi?
+n2n3
+n3n1
+n2
+#n2n2
+Algoritmning ishlash samaradorligi tahlilida sijitishlar soni?
+#Mi = Ci + 2;
+Mi = Ci + 1;
+Ci = Mi + 2;
+TJY
+C kalitlarni taqqoslashlar soni
+g~05776
+Mmin=3(n-1)
+Mmax=n^2/4+3(n-1)
+#C=(n^2-n)/2
+Mo'rt=n(lnn +g)
+Elementlar tartiblangan bo’lsa va teskari tartibda bo’lsa:
+g~05776
+Mmin=3(n-1)
+#Mmax=n^2/4+3(n-1)
+C=(n^2-n)/2
+Mo'rt=n(lnn +g)
+Minimal almashtirishlar soni:
+g~05776
+#Mmin=3(n-1)
+Mmax=n^2/4+3(n-1)
+C=(n^2-n)/2
+Mo'rt=n(lnn +g)
+O’rtacha almashtirishlar son
+g~05776
+Mmin=3(n-1)
+Mmax=n^2/4+3(n-1)
+C=(n^2-n)/2
+#Mo'rt=n(lnn +g)
+To’g’ridan-to’g’ri almashtirish yoki pufakcha usuli -?
+#elementlar saralanguniga qadar yonma-yon elementlarni saralashlar va almashtirishlar jarayoni
+elementlar saralangunga qadar yonma-yon elementlarni almashtirishlar jarayoni
+massivlarni ketma-ket va yonmayon kelishini taminlaydigan jarayon
+ketma-ket kelgan massiv elementlarini saralanguniga qadar joylashtirish
+Qaysi saralash usuli pufaksimon saralash usulining mukammallashgan turi?
+daraxt saralash usuli
+#sheyker
+to'g'ridan to'g'ri saralash
+piramidali saralash
+To’g’ridan-to’g’ri qo’yish usuli yordamida saralashning mukammallashtirilgan usulini kim taklif qildi
+DVillyams
+Rober Guk
+SVillyams
+#DShell
+To’g’ridan to’g’ri qo’shish usuli?
+#Insertion
+Selection
+Exchange
+nothing
+Konteyner bu ?
+bu har xil tipdagi malumotlarni alohida alohida holatda joylovchi sinif
+bu bir xil turdagi obyektlarnioz tiplariga joylashtirishga qodir sinif
+#bu ob'ektlar bir xil turdagi qiymatlar to'plamini saqlashga qodir sinf
+bu ob'ektlar har xil turdagi qiymatlar to'plamini saqlashga qodir sinf
+insert_after buyrug'u qanday vazifani bajaradi?
+o'tkazilgan parametrlar uchun konstruktorni chaqirib, yangi element yaratish;
+#elementni kiritish
+ob'ektni o'chirish
+predikat bo'yicha barcha elementlarni olib tashlaydi;
+emplace_after buyrug'i qanday vazifa bajaradi?
+#o'tkazilgan parametrlar uchun konstruktorni chaqirib, yangi element yaratish;
+elementni kiritish
+ob'ektni o'chirish
+predikat bo'yicha barcha elementlarni olib tashlaydi;
+erase_after bu kodga berilgan to'g'ri tarifni korsating
+o'tkazilgan parametrlar uchun konstruktorni chaqirib, yangi element yaratish;
+elementni kiritish
+#ob'ektni o'chirish
+predikat bo'yicha barcha elementlarni olib tashlaydi
+Qaysi funksiya royhatdagi birinchi elementni olib tashlaydi?
+merge
+splice_after
+erase_after
+#Pop_front
+Predikat bo'yicha barcha elementlarni olib tashlaydi funktsiya qaysi?
+splice_after
+erase_after
+pop_front
+#remove_if
+Qaysi funktsiya amalda egallagan hajmni saqlashni ajratadi va elementlarni u erga ko'chiradi, bu esa ajratilmagan xotirani
+bo'shatadi
+erase_after
+pop_front
+#Shrink_to_fit
+remove_if
+Deque konteynerni qanday afzallik taraflari bor?
+#elementlarni ro'yxatga o'xshash o'zboshimchalik bilan joylashtirish va o'chirishga imkon beradi
+Qaysi funksiya birlashtirilgan ikkita saralangan ro'yxatni bittaga birlashtiradi, elementlar nusxalanmaydi, lekin o'ng ro'yxatdachapga o'tkaziladi;
+#TJY
+pop_front
+Shrink_to_fit
+remove_if
+<array> statik massivi <T, N> qanday iteratori orqali elementlarga kirishni ta'minlaydi?
+#tasodifiy kirish
+Ro’yxat nima?
+#bu a1, a2, , a n turdagi ma'lum elementlarning ketma -ketligi
+Ko’rsatkich - …
+#bu aynan ushbu turga tegishli bo’lgan boshqa bir element adresi bo’lib, bu element oldingi element bilan mantiqiy
+bog’langanligini anglatadi
+Oxirgi elementni belgilash uchun qaysi ko’rsatkich ishlatiladi ?
+#Nul
+Ma’lumotlarning abstrakt (mavhum) turlari - …
+# bu matematik model va shu model doirasida aniqlangan turli xil operatorlardir
+Ma’lumotlar tuzilmasi qanday ishlab chiqiladi ?
+#yacheykalar majmuasiga boshqa yacheykalar vakili (ya’ni ko’rsatkichlar) sifatida nom berish orqali ishlab chiqiladi
+ADT "List" operatorlari to’liq berilgan javobni belgilang
+#1 INSERT (x, p, L) 2 LOCATE (x, L) 3 RETRIEVE (p, L) 4 DELETE (p, L) 5 NEXT (p, L) и PREVIOUS (p, L)6 MAKENULL (L)7 FIRST (L)PRINTLIST (L)
+INSERT(x , p ,L) operatori nima vazifani bajaradi?
+# x ob'ektini L ro'yxatidagi p holatiga qo'yadi, elementlarni p pozitsiyadan keyingi yuqori holatga o'tkazadi
+Agar L ro'yxatda p pozitsiya bo'lmasa, bu operatorning bajarilish natijasi qanday boladi?
+#aniqlanmagan
+LOCATE (x, L) funktsiyasi nima vazifani bajaradi?
+# x ob'ektining L ro'yxatidagi o'rnini qaytaradi
+Agar x obyekti L ro'yxatda bo'lmasa funksiya nimani qaytariladi?
+#nil
+RETRIEVE (p, L) funktsiyasi nima vazifani bajaradi?
+# funktsiya L ro'yxatidagi p holatidagi elementni qaytaradi, agar p = nil bo'lsa yoki L ro'yxatda p pozitsiya bo'lmasa, natija
+aniqlanmaydi
+funktsiya p ro'yxatidagi L holatidagi elementni qaytaradi, agar p = nil bo'lsa yoki L ro'yxatda p pozitsiya bo'lmasa, natija
+aniqlanmaydi
+# operator L ro'yxatning p pozitsiyasidagi elementni olib tashlaydi
+L yoki p = nil ro'yxatida p element bo'lmasa, natija qanday chiqadi?
+#natija aniqlanmaydi
+NEXT (p, L) и PREVIOUS (p, L) funktsiyasiyalar nima vazifani bajaradi?
+#funktsiyalar navbati bilan L ro'yxatidagi p pozitsiyasidan keyingi va oldingi pozitsiyalarni qaytaradi
+L ro'yxatda p bo'lmasa, ikkala funktsiya ham nimani qaytaradi?
+# ikkala funktsiya ham aniqlanmagan
+MAKENULL (L) funktsiyasi nima vazifani bajaradi?
+# funktsiya L ro'yxatini bo'sh qiladi va nol pozitsiyasini qaytaradi
+FIRST (L) funktsiyasi nima vazifani bajaradi?
+# funktsiya L ro'yxatidagi birinchi pozitsiyani qaytaradi
+PRINTLIST (L) nima vazifani bajaradi?
+# L ro'yxatining elementlarini ro'yxatda paydo bo'ladigan tartibda chop etadi
+last-…
+# ro'yxatdagi oxirgi elementga ko'rsatgich
+maxlenght-…?
+#ro'yxatdagi maksimal uzunlik (elementlar soni)
+Yangi tugun qoyish talab qilingan bolsa necha bosqichda amalga oshiriladi
+# 2 bosqichda
+Royxatda berilgan korsatkichli tugun mavjud bolmasa tsikl oxirida Q korsatkich nimaga teng boladi
+#NULL
+Keying tugunga otish uchun qaysi korsatgichdan foydalanamiz
+#next
+Ikki boglamli royxatlarda otish amalini nechchi yonalish boyicha bajarish mumkin
+#ikki yonalish
+Royxatlar (bir boglamli yoki ikki boglamli) halqa shaklida boglanishi mumkinmi
+#ha
+Royxatning bosh elementining prev korsatkichi royxatning qaysi qism elementiga boglanadi?
+#ohiri qism
+IBHRga yangi tugun qoshish funksiyasi nechta argument qabul qiladi
+#2 ta
+IBHR funktsiyani elementlarni teskari tartibda chiqarish uchun ham qollash mumkinmi
+# ha mumkin
+Royhatga olish tuguni qanday algaritimda ishlaydi(ketma-ketlik bo'yicha saralang)?
+1) Joriy element mavjud (ko’rsatkichi NULL emas) bo’lsa, qo’yilgan shartni tekshirish va keyingi elementga o’tish2) Ro’yxat
+boshidan boshlash; 3) belgilangan tartibda elementlarni saralash 4) Talab qilingan element topilganligi yoki ro’yxat to’liq
+ko’rib chiqilganligi haqida axborot berish va tugatish
+#2, 1, 4
+Tugunga yangi malymotni yozish uchun tuzilmaning qanday adresi boyicha murojat qilinadi?
+#korsatgich maydon
+
+    </pre>
+</body>
+</html>
